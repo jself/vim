@@ -151,7 +151,9 @@ let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 colorscheme twilight2
 set vb t_vb=
 call ipi#inspect()
-set cm=blowfish
+if v:version >= 730
+    set cm=blowfish
+endif
 
 "disable bells
 set noeb vb t_vb=
