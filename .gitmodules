@@ -79,3 +79,6 @@
 [submodule "vim-pathogen"]
 	path = vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "bundle/rope-vim"]
+	path = bundle/rope-vim
+	url = https://github.com/finder/rope-vim.git
