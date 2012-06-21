@@ -34,9 +34,6 @@
 [submodule "bundle/PySmell"]
 	path = bundle/PySmell
 	url = https://github.com/vim-scripts/PySmell
-[submodule "bundle/rope-vim"]
-	path = bundle/rope-vim
-	url = https://github.com/gordyt/rope-vim
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim
