@@ -1,4 +1,4 @@
-{"bundles":[
+{"bundle":[
     "https://github.com/mileszs/ack.vim",
     "https://github.com/tpope/vim-fugitive",
     "https://github.com/vim-scripts/Conque-Shell",
