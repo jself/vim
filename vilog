@@ -1,0 +1,950 @@
+1332814246.43315: Vim: Warning: Output is not to a terminal
+1332814248.41216: chdir(/etc/vim)[?25l[J
+1332814248.41225: fchdir() to previous dir[J
+1332814248.41285: sourcing "/etc/vim/vimrc"[J
+1332814248.41288: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.41296: fchdir() to previous dir[J
+1332814248.4142: line 93: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"[J
+1332814248.41421: Searching for "syntax/synload.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.41422: Searching for "/home/finder/.vim/syntax/synload.vim"[J
+1332814248.41423: Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"[J
+1332814248.41423: Searching for "/usr/share/vim/vim73/syntax/synload.vim"[J
+1332814248.41424: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.41424: fchdir() to previous dir[J
+1332814248.41425: line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"[J
+1332814248.41425: Searching for "syntax/syncolor.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.41426: Searching for "/home/finder/.vim/syntax/syncolor.vim"[J
+1332814248.41426: Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"[J
+1332814248.41427: Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.41427: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.41428: fchdir() to previous dir[J
+1332814248.41474: line 21: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.4148: finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim[J
+1332814248.41488: continuing in /usr/share/vim/vim73/syntax/synload.vim[J
+1332814248.41498: Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"[J
+1332814248.41534: Searching for "/home/finder/.vim/after/syntax/syncolor.vim"[J
+1332814248.41539: finished sourcing /usr/share/vim/vim73/syntax/synload.vim[J
+1332814248.41552: continuing in /usr/share/vim/vim73/syntax/syntax.vim[J
+1332814248.41569: Searching for "filetype.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.41576: Searching for "/home/finder/.vim/filetype.vim"[J
+1332814248.41583: Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
+1332814248.41592: Searching for "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.41596: chdir(/usr/share/vim/vim73)[J
+1332814248.41602: fchdir() to previous dir[J
+1332814248.45051: line 25: sourcing "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.45069: Searching for "ftdetect/*.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.45088: Searching for "/home/finder/.vim/ftdetect/*.vim"[J
+1332814248.45092: chdir(/home/finder/.vim/ftdetect)[J
+1332814248.45098: fchdir() to previous dir[J
+1332814248.45117: line 2550: sourcing "/home/finder/.vim/ftdetect/puppet.vim"[J
+1332814248.45122: finished sourcing /home/finder/.vim/ftdetect/puppet.vim[J
+1332814248.45132: continuing in /usr/share/vim/vim73/filetype.vim[J
+1332814248.45144: Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"[J
+1332814248.45149: chdir(/usr/share/vim/vimfiles/ftdetect)[J
+1332814248.45155: fchdir() to previous dir[J
+1332814248.45296: line 2550: sourcing "/usr/share/vim/vimfiles/ftdetect/gentoo.vim"[J
+1332814248.45302: finished sourcing /usr/share/vim/vimfiles/ftdetect/gentoo.vim[J
+1332814248.45311: continuing in /usr/share/vim/vim73/filetype.vim[J
+1332814248.45319: Searching for "/usr/share/vim/vim73/ftdetect/*.vim"[J
+1332814248.45333: Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"[J
+1332814248.45359: Searching for "/home/finder/.vim/after/ftdetect/*.vim"[J
+1332814248.45364: finished sourcing /usr/share/vim/vim73/filetype.vim[J
+1332814248.45373: continuing in /usr/share/vim/vim73/syntax/syntax.vim[J
+1332814248.45381: Searching for "/usr/share/vim/vimfiles/after/filetype.vim"[J
+1332814248.45393: Searching for "/home/finder/.vim/after/filetype.vim"[J
+1332814248.4544: finished sourcing /usr/share/vim/vim73/syntax/syntax.vim[J
+1332814248.45482: continuing in /etc/vim/vimrc[J
+1332814248.45835: Searching for "filetype.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.45874: Searching for "/home/finder/.vim/filetype.vim"[J
+1332814248.45917: Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
+1332814248.45958: Searching for "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.45981: chdir(/usr/share/vim/vim73)[J
+1332814248.46007: fchdir() to previous dir[J
+1332814248.46055: line 118: sourcing "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.46094: finished sourcing /usr/share/vim/vim73/filetype.vim[J
+1332814248.46122: continuing in /etc/vim/vimrc[J
+1332814248.46157: Searching for "/usr/share/vim/vimfiles/after/filetype.vim"[J
+1332814248.46164: Searching for "/home/finder/.vim/after/filetype.vim"[J
+1332814248.46195: Searching for "ftplugin.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.46202: Searching for "/home/finder/.vim/ftplugin.vim"[J
+1332814248.4621: Searching for "/usr/share/vim/vimfiles/ftplugin.vim"[J
+1332814248.46222: Searching for "/usr/share/vim/vim73/ftplugin.vim"[J
+1332814248.46227: chdir(/usr/share/vim/vim73)[J
+1332814248.46233: fchdir() to previous dir[J
+1332814248.46253: line 118: sourcing "/usr/share/vim/vim73/ftplugin.vim"[J
+1332814248.4626: finished sourcing /usr/share/vim/vim73/ftplugin.vim[J
+1332814248.46265: continuing in /etc/vim/vimrc[J
+1332814248.46273: Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"[J
+1332814248.46344: Searching for "/home/finder/.vim/after/ftplugin.vim"[J
+1332814248.46351: finished sourcing /etc/vim/vimrc[J
+1332814248.46354: chdir(/home/finder)[J
+1332814248.4636: fchdir() to previous dir[J
+1332814248.46369: sourcing "$HOME/.vimrc"[J
+1332814248.46385: Searching for "ftoff.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.46392: Searching for "/home/finder/.vim/ftoff.vim"[J
+1332814248.46399: Searching for "/usr/share/vim/vimfiles/ftoff.vim"[J
+1332814248.46407: Searching for "/usr/share/vim/vim73/ftoff.vim"[J
+1332814248.46413: chdir(/usr/share/vim/vim73)[J
+1332814248.4642: fchdir() to previous dir[J
+1332814248.46488: line 1: sourcing "/usr/share/vim/vim73/ftoff.vim"[J
+1332814248.46495: finished sourcing /usr/share/vim/vim73/ftoff.vim[J
+1332814248.465: continuing in /home/finder/.vimrc[J
+1332814248.46509: Searching for "/usr/share/vim/vimfiles/after/ftoff.vim"[J
+1332814248.46552: Searching for "/home/finder/.vim/after/ftoff.vim"[J
+1332814248.46843: Searching for "autoload/pathogen.vim" in "/home/finder/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/after"[J
+1332814248.46845: Searching for "/home/finder/.vim/autoload/pathogen.vim"[J
+1332814248.46846: chdir(/home/finder/.vim/autoload)[J
+1332814248.46846: fchdir() to previous dir[J
+1332814248.46847: line 2: sourcing "/home/finder/.vim/autoload/pathogen.vim"[J
+1332814248.46847: finished sourcing /home/finder/.vim/autoload/pathogen.vim[J
+1332814248.50422: continuing in /home/finder/.vimrc[J
+1332814248.5054: Searching for "filetype.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.50607: Searching for "/home/finder/.vim/filetype.vim"[J
+1332814248.50658: Searching for "/home/finder/.vim/bundle/CSApprox/filetype.vim"[J
+1332814248.50711: Searching for "/home/finder/.vim/bundle/FindFile/filetype.vim"[J
+1332814248.50762: Searching for "/home/finder/.vim/bundle/LargeFile/filetype.vim"[J
+1332814248.50813: Searching for "/home/finder/.vim/bundle/ManPageView/filetype.vim"[J
+1332814248.5086: Searching for "/home/finder/.vim/bundle/PySmell/filetype.vim"[J
+1332814248.5091: Searching for "/home/finder/.vim/bundle/ZenCoding/filetype.vim"[J
+1332814248.50953: Searching for "/home/finder/.vim/bundle/ack/filetype.vim"[J
+1332814248.51004: Searching for "/home/finder/.vim/bundle/argtextobj/filetype.vim"[J
+1332814248.51053: Searching for "/home/finder/.vim/bundle/echofunc/filetype.vim"[J
+1332814248.51117: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/filetype.vim"[J
+1332814248.51163: Searching for "/home/finder/.vim/bundle/gitdiff/filetype.vim"[J
+1332814248.51207: Searching for "/home/finder/.vim/bundle/gitv/filetype.vim"[J
+1332814248.51239: Searching for "/home/finder/.vim/bundle/grep/filetype.vim"[J
+1332814248.51247: Searching for "/home/finder/.vim/bundle/pylint/filetype.vim"[J
+1332814248.51256: Searching for "/home/finder/.vim/bundle/rope-vim/filetype.vim"[J
+1332814248.51264: Searching for "/home/finder/.vim/bundle/snipmate/filetype.vim"[J
+1332814248.51273: Searching for "/home/finder/.vim/bundle/snippets/filetype.vim"[J
+1332814248.51282: Searching for "/home/finder/.vim/bundle/snippetsEmu/filetype.vim"[J
+1332814248.51291: Searching for "/home/finder/.vim/bundle/surround/filetype.vim"[J
+1332814248.513: Searching for "/home/finder/.vim/bundle/vim-fugitive/filetype.vim"[J
+1332814248.51311: Searching for "/home/finder/.vim/bundle/vim-indent-object/filetype.vim"[J
+1332814248.5132: Searching for "/home/finder/.vim/bundle/vimwiki/filetype.vim"[J
+1332814248.51327: Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
+1332814248.51337: Searching for "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.51341: chdir(/usr/share/vim/vim73)[J
+1332814248.51347: fchdir() to previous dir[J
+1332814248.5484: line 27: sourcing "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.54962: Searching for "ftdetect/*.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.54976: Searching for "/home/finder/.vim/ftdetect/*.vim"[J
+1332814248.54981: chdir(/home/finder/.vim/ftdetect)[J
+1332814248.54987: fchdir() to previous dir[J
+1332814248.55004: line 2550: sourcing "/home/finder/.vim/ftdetect/puppet.vim"[J
+1332814248.55014: finished sourcing /home/finder/.vim/ftdetect/puppet.vim[J
+1332814248.55022: continuing in /usr/share/vim/vim73/filetype.vim[J
+1332814248.55031: Searching for "/home/finder/.vim/bundle/CSApprox/ftdetect/*.vim"[J
+1332814248.5504: Searching for "/home/finder/.vim/bundle/FindFile/ftdetect/*.vim"[J
+1332814248.55095: Searching for "/home/finder/.vim/bundle/LargeFile/ftdetect/*.vim"[J
+1332814248.55151: Searching for "/home/finder/.vim/bundle/ManPageView/ftdetect/*.vim"[J
+1332814248.55204: Searching for "/home/finder/.vim/bundle/PySmell/ftdetect/*.vim"[J
+1332814248.55215: Searching for "/home/finder/.vim/bundle/ZenCoding/ftdetect/*.vim"[J
+1332814248.55224: Searching for "/home/finder/.vim/bundle/ack/ftdetect/*.vim"[J
+1332814248.55235: Searching for "/home/finder/.vim/bundle/argtextobj/ftdetect/*.vim"[J
+1332814248.55245: Searching for "/home/finder/.vim/bundle/echofunc/ftdetect/*.vim"[J
+1332814248.55257: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/ftdetect/*.vim"[J
+1332814248.55267: Searching for "/home/finder/.vim/bundle/gitdiff/ftdetect/*.vim"[J
+1332814248.55276: Searching for "/home/finder/.vim/bundle/gitv/ftdetect/*.vim"[J
+1332814248.55286: Searching for "/home/finder/.vim/bundle/grep/ftdetect/*.vim"[J
+1332814248.55296: Searching for "/home/finder/.vim/bundle/pylint/ftdetect/*.vim"[J
+1332814248.55309: Searching for "/home/finder/.vim/bundle/rope-vim/ftdetect/*.vim"[J
+1332814248.55318: Searching for "/home/finder/.vim/bundle/snipmate/ftdetect/*.vim"[J
+1332814248.55328: Searching for "/home/finder/.vim/bundle/snippets/ftdetect/*.vim"[J
+1332814248.55339: Searching for "/home/finder/.vim/bundle/snippetsEmu/ftdetect/*.vim"[J
+1332814248.55349: Searching for "/home/finder/.vim/bundle/surround/ftdetect/*.vim"[J
+1332814248.5536: Searching for "/home/finder/.vim/bundle/vim-fugitive/ftdetect/*.vim"[J
+1332814248.55372: Searching for "/home/finder/.vim/bundle/vim-indent-object/ftdetect/*.vim"[J
+1332814248.55382: Searching for "/home/finder/.vim/bundle/vimwiki/ftdetect/*.vim"[J
+1332814248.55396: Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"[J
+1332814248.55402: chdir(/usr/share/vim/vimfiles/ftdetect)[J
+1332814248.5541: fchdir() to previous dir[J
+1332814248.55563: line 2550: sourcing "/usr/share/vim/vimfiles/ftdetect/gentoo.vim"[J
+1332814248.55571: finished sourcing /usr/share/vim/vimfiles/ftdetect/gentoo.vim[J
+1332814248.55579: continuing in /usr/share/vim/vim73/filetype.vim[J
+1332814248.55587: Searching for "/usr/share/vim/vim73/ftdetect/*.vim"[J
+1332814248.55596: Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"[J
+1332814248.55608: Searching for "/home/finder/.vim/bundle/snipmate/after/ftdetect/*.vim"[J
+1332814248.55637: Searching for "/home/finder/.vim/after/ftdetect/*.vim"[J
+1332814248.55644: finished sourcing /usr/share/vim/vim73/filetype.vim[J
+1332814248.55649: continuing in /home/finder/.vimrc[J
+1332814248.55658: Searching for "/usr/share/vim/vimfiles/after/filetype.vim"[J
+1332814248.55667: Searching for "/home/finder/.vim/bundle/snipmate/after/filetype.vim"[J
+1332814248.55676: Searching for "/home/finder/.vim/after/filetype.vim"[J
+1332814248.55798: Searching for "ftplugin.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.55806: Searching for "/home/finder/.vim/ftplugin.vim"[J
+1332814248.55817: Searching for "/home/finder/.vim/bundle/CSApprox/ftplugin.vim"[J
+1332814248.55938: Searching for "/home/finder/.vim/bundle/FindFile/ftplugin.vim"[J
+1332814248.55939: Searching for "/home/finder/.vim/bundle/LargeFile/ftplugin.vim"[J
+1332814248.5594: Searching for "/home/finder/.vim/bundle/ManPageView/ftplugin.vim"[J
+1332814248.5594: Searching for "/home/finder/.vim/bundle/PySmell/ftplugin.vim"[J
+1332814248.55941: Searching for "/home/finder/.vim/bundle/ZenCoding/ftplugin.vim"[J
+1332814248.55942: Searching for "/home/finder/.vim/bundle/ack/ftplugin.vim"[J
+1332814248.55942: Searching for "/home/finder/.vim/bundle/argtextobj/ftplugin.vim"[J
+1332814248.55943: Searching for "/home/finder/.vim/bundle/echofunc/ftplugin.vim"[J
+1332814248.55943: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/ftplugin.vim"[J
+1332814248.55944: Searching for "/home/finder/.vim/bundle/gitdiff/ftplugin.vim"[J
+1332814248.55944: Searching for "/home/finder/.vim/bundle/gitv/ftplugin.vim"[J
+1332814248.55945: Searching for "/home/finder/.vim/bundle/grep/ftplugin.vim"[J
+1332814248.55945: Searching for "/home/finder/.vim/bundle/pylint/ftplugin.vim"[J
+1332814248.55946: Searching for "/home/finder/.vim/bundle/rope-vim/ftplugin.vim"[J
+1332814248.55947: Searching for "/home/finder/.vim/bundle/snipmate/ftplugin.vim"[J
+1332814248.55947: Searching for "/home/finder/.vim/bundle/snippets/ftplugin.vim"[J
+1332814248.55948: Searching for "/home/finder/.vim/bundle/snippetsEmu/ftplugin.vim"[J
+1332814248.55949: Searching for "/home/finder/.vim/bundle/surround/ftplugin.vim"[J
+1332814248.55958: Searching for "/home/finder/.vim/bundle/vim-fugitive/ftplugin.vim"[J
+1332814248.55968: Searching for "/home/finder/.vim/bundle/vim-indent-object/ftplugin.vim"[J
+1332814248.55977: Searching for "/home/finder/.vim/bundle/vimwiki/ftplugin.vim"[J
+1332814248.55984: Searching for "/usr/share/vim/vimfiles/ftplugin.vim"[J
+1332814248.55994: Searching for "/usr/share/vim/vim73/ftplugin.vim"[J
+1332814248.55998: chdir(/usr/share/vim/vim73)[J
+1332814248.56004: fchdir() to previous dir[J
+1332814248.56017: line 27: sourcing "/usr/share/vim/vim73/ftplugin.vim"[J
+1332814248.56024: finished sourcing /usr/share/vim/vim73/ftplugin.vim[J
+1332814248.5603: continuing in /home/finder/.vimrc[J
+1332814248.56039: Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"[J
+1332814248.5605: Searching for "/home/finder/.vim/bundle/snipmate/after/ftplugin.vim"[J
+1332814248.56058: Searching for "/home/finder/.vim/after/ftplugin.vim"[J
+1332814248.56183: Searching for "indent.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.56189: Searching for "/home/finder/.vim/indent.vim"[J
+1332814248.56198: Searching for "/home/finder/.vim/bundle/CSApprox/indent.vim"[J
+1332814248.56655: Searching for "/home/finder/.vim/bundle/FindFile/indent.vim"[J
+1332814248.56657: Searching for "/home/finder/.vim/bundle/LargeFile/indent.vim"[J
+1332814248.56658: Searching for "/home/finder/.vim/bundle/ManPageView/indent.vim"[J
+1332814248.56658: Searching for "/home/finder/.vim/bundle/PySmell/indent.vim"[J
+1332814248.56659: Searching for "/home/finder/.vim/bundle/ZenCoding/indent.vim"[J
+1332814248.56659: Searching for "/home/finder/.vim/bundle/ack/indent.vim"[J
+1332814248.568: Searching for "/home/finder/.vim/bundle/argtextobj/indent.vim"[J
+1332814248.56801: Searching for "/home/finder/.vim/bundle/echofunc/indent.vim"[J
+1332814248.56802: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/indent.vim"[J
+1332814248.56802: Searching for "/home/finder/.vim/bundle/gitdiff/indent.vim"[J
+1332814248.56803: Searching for "/home/finder/.vim/bundle/gitv/indent.vim"[J
+1332814248.56803: Searching for "/home/finder/.vim/bundle/grep/indent.vim"[J
+1332814248.56804: Searching for "/home/finder/.vim/bundle/pylint/indent.vim"[J
+1332814248.56804: Searching for "/home/finder/.vim/bundle/rope-vim/indent.vim"[J
+1332814248.56805: Searching for "/home/finder/.vim/bundle/snipmate/indent.vim"[J
+1332814248.56805: Searching for "/home/finder/.vim/bundle/snippets/indent.vim"[J
+1332814248.56806: Searching for "/home/finder/.vim/bundle/snippetsEmu/indent.vim"[J
+1332814248.56807: Searching for "/home/finder/.vim/bundle/surround/indent.vim"[J
+1332814248.56807: Searching for "/home/finder/.vim/bundle/vim-fugitive/indent.vim"[J
+1332814248.56809: Searching for "/home/finder/.vim/bundle/vim-indent-object/indent.vim"[J
+1332814248.5681: Searching for "/home/finder/.vim/bundle/vimwiki/indent.vim"[J
+1332814248.5681: Searching for "/usr/share/vim/vimfiles/indent.vim"[J
+1332814248.56811: Searching for "/usr/share/vim/vim73/indent.vim"[J
+1332814248.56811: chdir(/usr/share/vim/vim73)[J
+1332814248.56812: fchdir() to previous dir[J
+1332814248.56812: line 27: sourcing "/usr/share/vim/vim73/indent.vim"[J
+1332814248.56813: finished sourcing /usr/share/vim/vim73/indent.vim[J
+1332814248.56814: continuing in /home/finder/.vimrc[J
+1332814248.56814: Searching for "/usr/share/vim/vimfiles/after/indent.vim"[J
+1332814248.56815: Searching for "/home/finder/.vim/bundle/snipmate/after/indent.vim"[J
+1332814248.56815: Searching for "/home/finder/.vim/after/indent.vim"[J
+1332814248.56816: Searching for "filetype.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.56817: Searching for "/home/finder/.vim/filetype.vim"[J
+1332814248.56817: Searching for "/home/finder/.vim/bundle/CSApprox/filetype.vim"[J
+1332814248.56818: Searching for "/home/finder/.vim/bundle/FindFile/filetype.vim"[J
+1332814248.56818: Searching for "/home/finder/.vim/bundle/LargeFile/filetype.vim"[J
+1332814248.56819: Searching for "/home/finder/.vim/bundle/ManPageView/filetype.vim"[J
+1332814248.56819: Searching for "/home/finder/.vim/bundle/PySmell/filetype.vim"[J
+1332814248.5682: Searching for "/home/finder/.vim/bundle/ZenCoding/filetype.vim"[J
+1332814248.5682: Searching for "/home/finder/.vim/bundle/ack/filetype.vim"[J
+1332814248.56821: Searching for "/home/finder/.vim/bundle/argtextobj/filetype.vim"[J
+1332814248.56821: Searching for "/home/finder/.vim/bundle/echofunc/filetype.vim"[J
+1332814248.56822: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/filetype.vim"[J
+1332814248.56822: Searching for "/home/finder/.vim/bundle/gitdiff/filetype.vim"[J
+1332814248.56823: Searching for "/home/finder/.vim/bundle/gitv/filetype.vim"[J
+1332814248.56823: Searching for "/home/finder/.vim/bundle/grep/filetype.vim"[J
+1332814248.56932: Searching for "/home/finder/.vim/bundle/pylint/filetype.vim"[J
+1332814248.56933: Searching for "/home/finder/.vim/bundle/rope-vim/filetype.vim"[J
+1332814248.56933: Searching for "/home/finder/.vim/bundle/snipmate/filetype.vim"[J
+1332814248.56934: Searching for "/home/finder/.vim/bundle/snippets/filetype.vim"[J
+1332814248.56934: Searching for "/home/finder/.vim/bundle/snippetsEmu/filetype.vim"[J
+1332814248.56936: Searching for "/home/finder/.vim/bundle/surround/filetype.vim"[J
+1332814248.56937: Searching for "/home/finder/.vim/bundle/vim-fugitive/filetype.vim"[J
+1332814248.56937: Searching for "/home/finder/.vim/bundle/vim-indent-object/filetype.vim"[J
+1332814248.56938: Searching for "/home/finder/.vim/bundle/vimwiki/filetype.vim"[J
+1332814248.56938: Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
+1332814248.56939: Searching for "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.56939: chdir(/usr/share/vim/vim73)[J
+1332814248.5694: fchdir() to previous dir[J
+1332814248.5694: line 28: sourcing "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.56941: finished sourcing /usr/share/vim/vim73/filetype.vim[J
+1332814248.56941: continuing in /home/finder/.vimrc[J
+1332814248.56942: Searching for "/usr/share/vim/vimfiles/after/filetype.vim"[J
+1332814248.56942: Searching for "/home/finder/.vim/bundle/snipmate/after/filetype.vim"[J
+1332814248.56943: Searching for "/home/finder/.vim/after/filetype.vim"[J
+1332814248.56944: Searching for "filetype.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.56944: Searching for "/home/finder/.vim/filetype.vim"[J
+1332814248.56945: Searching for "/home/finder/.vim/bundle/CSApprox/filetype.vim"[J
+1332814248.56945: Searching for "/home/finder/.vim/bundle/FindFile/filetype.vim"[J
+1332814248.56946: Searching for "/home/finder/.vim/bundle/LargeFile/filetype.vim"[J
+1332814248.56946: Searching for "/home/finder/.vim/bundle/ManPageView/filetype.vim"[J
+1332814248.56947: Searching for "/home/finder/.vim/bundle/PySmell/filetype.vim"[J
+1332814248.56947: Searching for "/home/finder/.vim/bundle/ZenCoding/filetype.vim"[J
+1332814248.56948: Searching for "/home/finder/.vim/bundle/ack/filetype.vim"[J
+1332814248.56948: Searching for "/home/finder/.vim/bundle/argtextobj/filetype.vim"[J
+1332814248.56949: Searching for "/home/finder/.vim/bundle/echofunc/filetype.vim"[J
+1332814248.56973: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/filetype.vim"[J
+1332814248.56974: Searching for "/home/finder/.vim/bundle/gitdiff/filetype.vim"[J
+1332814248.56975: Searching for "/home/finder/.vim/bundle/gitv/filetype.vim"[J
+1332814248.56976: Searching for "/home/finder/.vim/bundle/grep/filetype.vim"[J
+1332814248.56977: Searching for "/home/finder/.vim/bundle/pylint/filetype.vim"[J
+1332814248.56977: Searching for "/home/finder/.vim/bundle/rope-vim/filetype.vim"[J
+1332814248.56978: Searching for "/home/finder/.vim/bundle/snipmate/filetype.vim"[J
+1332814248.56978: Searching for "/home/finder/.vim/bundle/snippets/filetype.vim"[J
+1332814248.56983: Searching for "/home/finder/.vim/bundle/snippetsEmu/filetype.vim"[J
+1332814248.56992: Searching for "/home/finder/.vim/bundle/surround/filetype.vim"[J
+1332814248.57104: Searching for "/home/finder/.vim/bundle/vim-fugitive/filetype.vim"[J
+1332814248.57105: Searching for "/home/finder/.vim/bundle/vim-indent-object/filetype.vim"[J
+1332814248.57105: Searching for "/home/finder/.vim/bundle/vimwiki/filetype.vim"[J
+1332814248.57106: Searching for "/usr/share/vim/vimfiles/filetype.vim"[J
+1332814248.57107: Searching for "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.57107: chdir(/usr/share/vim/vim73)[J
+1332814248.57111: fchdir() to previous dir[J
+1332814248.57112: line 29: sourcing "/usr/share/vim/vim73/filetype.vim"[J
+1332814248.57112: finished sourcing /usr/share/vim/vim73/filetype.vim[J
+1332814248.57113: continuing in /home/finder/.vimrc[J
+1332814248.57113: Searching for "/usr/share/vim/vimfiles/after/filetype.vim"[J
+1332814248.57114: Searching for "/home/finder/.vim/bundle/snipmate/after/filetype.vim"[J
+1332814248.57115: Searching for "/home/finder/.vim/after/filetype.vim"[J
+1332814248.572: Searching for "ftplugin.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.57207: Searching for "/home/finder/.vim/ftplugin.vim"[J
+1332814248.57218: Searching for "/home/finder/.vim/bundle/CSApprox/ftplugin.vim"[J
+1332814248.57225: Searching for "/home/finder/.vim/bundle/FindFile/ftplugin.vim"[J
+1332814248.57235: Searching for "/home/finder/.vim/bundle/LargeFile/ftplugin.vim"[J
+1332814248.57244: Searching for "/home/finder/.vim/bundle/ManPageView/ftplugin.vim"[J
+1332814248.57253: Searching for "/home/finder/.vim/bundle/PySmell/ftplugin.vim"[J
+1332814248.57262: Searching for "/home/finder/.vim/bundle/ZenCoding/ftplugin.vim"[J
+1332814248.57271: Searching for "/home/finder/.vim/bundle/ack/ftplugin.vim"[J
+1332814248.5728: Searching for "/home/finder/.vim/bundle/argtextobj/ftplugin.vim"[J
+1332814248.57289: Searching for "/home/finder/.vim/bundle/echofunc/ftplugin.vim"[J
+1332814248.573: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/ftplugin.vim"[J
+1332814248.57312: Searching for "/home/finder/.vim/bundle/gitdiff/ftplugin.vim"[J
+1332814248.57318: Searching for "/home/finder/.vim/bundle/gitv/ftplugin.vim"[J
+1332814248.57327: Searching for "/home/finder/.vim/bundle/grep/ftplugin.vim"[J
+1332814248.57335: Searching for "/home/finder/.vim/bundle/pylint/ftplugin.vim"[J
+1332814248.57345: Searching for "/home/finder/.vim/bundle/rope-vim/ftplugin.vim"[J
+1332814248.57353: Searching for "/home/finder/.vim/bundle/snipmate/ftplugin.vim"[J
+1332814248.57363: Searching for "/home/finder/.vim/bundle/snippets/ftplugin.vim"[J
+1332814248.57372: Searching for "/home/finder/.vim/bundle/snippetsEmu/ftplugin.vim"[J
+1332814248.57381: Searching for "/home/finder/.vim/bundle/surround/ftplugin.vim"[J
+1332814248.57391: Searching for "/home/finder/.vim/bundle/vim-fugitive/ftplugin.vim"[J
+1332814248.57401: Searching for "/home/finder/.vim/bundle/vim-indent-object/ftplugin.vim"[J
+1332814248.57411: Searching for "/home/finder/.vim/bundle/vimwiki/ftplugin.vim"[J
+1332814248.57419: Searching for "/usr/share/vim/vimfiles/ftplugin.vim"[J
+1332814248.57428: Searching for "/usr/share/vim/vim73/ftplugin.vim"[J
+1332814248.57437: chdir(/usr/share/vim/vim73)[J
+1332814248.57438: fchdir() to previous dir[J
+1332814248.57448: line 29: sourcing "/usr/share/vim/vim73/ftplugin.vim"[J
+1332814248.57453: finished sourcing /usr/share/vim/vim73/ftplugin.vim[J
+1332814248.5746: continuing in /home/finder/.vimrc[J
+1332814248.57468: Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"[J
+1332814248.57478: Searching for "/home/finder/.vim/bundle/snipmate/after/ftplugin.vim"[J
+1332814248.57515: Searching for "/home/finder/.vim/after/ftplugin.vim"[J
+1332814248.5752: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.57526: fchdir() to previous dir[J
+1332814248.57542: line 58: sourcing "/usr/share/vim/vim73/syntax/syntax.vim"[J
+1332814248.57544: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.57552: fchdir() to previous dir[J
+1332814248.57603: line 15: sourcing "/usr/share/vim/vim73/syntax/nosyntax.vim"[J
+1332814248.57613: finished sourcing /usr/share/vim/vim73/syntax/nosyntax.vim[J
+1332814248.57623: continuing in /usr/share/vim/vim73/syntax/syntax.vim[J
+1332814248.57746: Searching for "syntax/synload.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.57755: Searching for "/home/finder/.vim/syntax/synload.vim"[J
+1332814248.57764: Searching for "/home/finder/.vim/bundle/CSApprox/syntax/synload.vim"[J
+1332814248.57773: Searching for "/home/finder/.vim/bundle/FindFile/syntax/synload.vim"[J
+1332814248.57783: Searching for "/home/finder/.vim/bundle/LargeFile/syntax/synload.vim"[J
+1332814248.57793: Searching for "/home/finder/.vim/bundle/ManPageView/syntax/synload.vim"[J
+1332814248.59065: Searching for "/home/finder/.vim/bundle/PySmell/syntax/synload.vim"[J
+1332814248.5907: Searching for "/home/finder/.vim/bundle/ZenCoding/syntax/synload.vim"[J
+1332814248.5907: Searching for "/home/finder/.vim/bundle/ack/syntax/synload.vim"[J
+1332814248.59071: Searching for "/home/finder/.vim/bundle/argtextobj/syntax/synload.vim"[J
+1332814248.59072: Searching for "/home/finder/.vim/bundle/echofunc/syntax/synload.vim"[J
+1332814248.59072: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/syntax/synload.vim"[J
+1332814248.59073: Searching for "/home/finder/.vim/bundle/gitdiff/syntax/synload.vim"[J
+1332814248.59073: Searching for "/home/finder/.vim/bundle/gitv/syntax/synload.vim"[J
+1332814248.59074: Searching for "/home/finder/.vim/bundle/grep/syntax/synload.vim"[J
+1332814248.59075: Searching for "/home/finder/.vim/bundle/pylint/syntax/synload.vim"[J
+1332814248.59075: Searching for "/home/finder/.vim/bundle/rope-vim/syntax/synload.vim"[J
+1332814248.59076: Searching for "/home/finder/.vim/bundle/snipmate/syntax/synload.vim"[J
+1332814248.59076: Searching for "/home/finder/.vim/bundle/snippets/syntax/synload.vim"[J
+1332814248.59077: Searching for "/home/finder/.vim/bundle/snippetsEmu/syntax/synload.vim"[J
+1332814248.59077: Searching for "/home/finder/.vim/bundle/surround/syntax/synload.vim"[J
+1332814248.59078: Searching for "/home/finder/.vim/bundle/vim-fugitive/syntax/synload.vim"[J
+1332814248.59078: Searching for "/home/finder/.vim/bundle/vim-indent-object/syntax/synload.vim"[J
+1332814248.59079: Searching for "/home/finder/.vim/bundle/vimwiki/syntax/synload.vim"[J
+1332814248.59196: Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"[J
+1332814248.59197: Searching for "/usr/share/vim/vim73/syntax/synload.vim"[J
+1332814248.59198: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.59198: fchdir() to previous dir[J
+1332814248.59199: line 19: sourcing "/usr/share/vim/vim73/syntax/synload.vim"[J
+1332814248.592: Searching for "syntax/syncolor.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.592: Searching for "/home/finder/.vim/syntax/syncolor.vim"[J
+1332814248.59201: Searching for "/home/finder/.vim/bundle/CSApprox/syntax/syncolor.vim"[J
+1332814248.59201: Searching for "/home/finder/.vim/bundle/FindFile/syntax/syncolor.vim"[J
+1332814248.59202: Searching for "/home/finder/.vim/bundle/LargeFile/syntax/syncolor.vim"[J
+1332814248.59202: Searching for "/home/finder/.vim/bundle/ManPageView/syntax/syncolor.vim"[J
+1332814248.59203: Searching for "/home/finder/.vim/bundle/PySmell/syntax/syncolor.vim"[J
+1332814248.59203: Searching for "/home/finder/.vim/bundle/ZenCoding/syntax/syncolor.vim"[J
+1332814248.59204: Searching for "/home/finder/.vim/bundle/ack/syntax/syncolor.vim"[J
+1332814248.59205: Searching for "/home/finder/.vim/bundle/argtextobj/syntax/syncolor.vim"[J
+1332814248.59205: Searching for "/home/finder/.vim/bundle/echofunc/syntax/syncolor.vim"[J
+1332814248.59206: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/syntax/syncolor.vim"[J
+1332814248.59206: Searching for "/home/finder/.vim/bundle/gitdiff/syntax/syncolor.vim"[J
+1332814248.59207: Searching for "/home/finder/.vim/bundle/gitv/syntax/syncolor.vim"[J
+1332814248.59207: Searching for "/home/finder/.vim/bundle/grep/syntax/syncolor.vim"[J
+1332814248.59209: Searching for "/home/finder/.vim/bundle/pylint/syntax/syncolor.vim"[J
+1332814248.5921: Searching for "/home/finder/.vim/bundle/rope-vim/syntax/syncolor.vim"[J
+1332814248.5921: Searching for "/home/finder/.vim/bundle/snipmate/syntax/syncolor.vim"[J
+1332814248.59211: Searching for "/home/finder/.vim/bundle/snippets/syntax/syncolor.vim"[J
+1332814248.59212: Searching for "/home/finder/.vim/bundle/snippetsEmu/syntax/syncolor.vim"[J
+1332814248.59212: Searching for "/home/finder/.vim/bundle/surround/syntax/syncolor.vim"[J
+1332814248.59213: Searching for "/home/finder/.vim/bundle/vim-fugitive/syntax/syncolor.vim"[J
+1332814248.59214: Searching for "/home/finder/.vim/bundle/vim-indent-object/syntax/syncolor.vim"[J
+1332814248.59215: Searching for "/home/finder/.vim/bundle/vimwiki/syntax/syncolor.vim"[J
+1332814248.59215: Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"[J
+1332814248.59216: Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.59217: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.59217: fchdir() to previous dir[J
+1332814248.59218: line 21: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.59218: finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim[J
+1332814248.59219: continuing in /usr/share/vim/vim73/syntax/synload.vim[J
+1332814248.59219: Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"[J
+1332814248.59325: Searching for "/home/finder/.vim/bundle/snipmate/after/syntax/syncolor.vim"[J
+1332814248.59326: Searching for "/home/finder/.vim/after/syntax/syncolor.vim"[J
+1332814248.59327: finished sourcing /usr/share/vim/vim73/syntax/synload.vim[J
+1332814248.59328: continuing in /usr/share/vim/vim73/syntax/syntax.vim[J
+1332814248.59328: finished sourcing /usr/share/vim/vim73/syntax/syntax.vim[J
+1332814248.59329: continuing in /home/finder/.vimrc[J
+1332814248.5933: Searching for "syntax/syncolor.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.5933: Searching for "/home/finder/.vim/syntax/syncolor.vim"[J
+1332814248.59331: Searching for "/home/finder/.vim/bundle/CSApprox/syntax/syncolor.vim"[J
+1332814248.59331: Searching for "/home/finder/.vim/bundle/FindFile/syntax/syncolor.vim"[J
+1332814248.59332: Searching for "/home/finder/.vim/bundle/LargeFile/syntax/syncolor.vim"[J
+1332814248.59332: Searching for "/home/finder/.vim/bundle/ManPageView/syntax/syncolor.vim"[J
+1332814248.59333: Searching for "/home/finder/.vim/bundle/PySmell/syntax/syncolor.vim"[J
+1332814248.59333: Searching for "/home/finder/.vim/bundle/ZenCoding/syntax/syncolor.vim"[J
+1332814248.59334: Searching for "/home/finder/.vim/bundle/ack/syntax/syncolor.vim"[J
+1332814248.59335: Searching for "/home/finder/.vim/bundle/argtextobj/syntax/syncolor.vim"[J
+1332814248.59335: Searching for "/home/finder/.vim/bundle/echofunc/syntax/syncolor.vim"[J
+1332814248.59336: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/syntax/syncolor.vim"[J
+1332814248.59336: Searching for "/home/finder/.vim/bundle/gitdiff/syntax/syncolor.vim"[J
+1332814248.59337: Searching for "/home/finder/.vim/bundle/gitv/syntax/syncolor.vim"[J
+1332814248.59337: Searching for "/home/finder/.vim/bundle/grep/syntax/syncolor.vim"[J
+1332814248.59338: Searching for "/home/finder/.vim/bundle/pylint/syntax/syncolor.vim"[J
+1332814248.59338: Searching for "/home/finder/.vim/bundle/rope-vim/syntax/syncolor.vim"[J
+1332814248.59339: Searching for "/home/finder/.vim/bundle/snipmate/syntax/syncolor.vim"[J
+1332814248.59339: Searching for "/home/finder/.vim/bundle/snippets/syntax/syncolor.vim"[J
+1332814248.5934: Searching for "/home/finder/.vim/bundle/snippetsEmu/syntax/syncolor.vim"[J
+1332814248.59341: Searching for "/home/finder/.vim/bundle/surround/syntax/syncolor.vim"[J
+1332814248.59341: Searching for "/home/finder/.vim/bundle/vim-fugitive/syntax/syncolor.vim"[J
+1332814248.59342: Searching for "/home/finder/.vim/bundle/vim-indent-object/syntax/syncolor.vim"[J
+1332814248.59342: Searching for "/home/finder/.vim/bundle/vimwiki/syntax/syncolor.vim"[J
+1332814248.59343: Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"[J
+1332814248.59343: Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.59344: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.59344: fchdir() to previous dir[J
+1332814248.59345: line 117: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.59345: finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim[J
+1332814248.59346: continuing in /home/finder/.vimrc[J
+1332814248.59347: Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"[J
+1332814248.59353: Searching for "/home/finder/.vim/bundle/snipmate/after/syntax/syncolor.vim"[J
+1332814248.59355: Searching for "/home/finder/.vim/after/syntax/syncolor.vim"[J
+1332814248.59355: Searching for "colors/twilight2.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.59356: Searching for "/home/finder/.vim/colors/twilight2.vim"[J
+1332814248.59357: chdir(/home/finder/.vim/colors)[J
+1332814248.59357: fchdir() to previous dir[J
+1332814248.59358: line 148: sourcing "/home/finder/.vim/colors/twilight2.vim"[J
+1332814248.59359: Searching for "syntax/syncolor.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.59359: Searching for "/home/finder/.vim/syntax/syncolor.vim"[J
+1332814248.5936: Searching for "/home/finder/.vim/bundle/CSApprox/syntax/syncolor.vim"[J
+1332814248.5951: Searching for "/home/finder/.vim/bundle/FindFile/syntax/syncolor.vim"[J
+1332814248.59511: Searching for "/home/finder/.vim/bundle/LargeFile/syntax/syncolor.vim"[J
+1332814248.59512: Searching for "/home/finder/.vim/bundle/ManPageView/syntax/syncolor.vim"[J
+1332814248.59512: Searching for "/home/finder/.vim/bundle/PySmell/syntax/syncolor.vim"[J
+1332814248.59513: Searching for "/home/finder/.vim/bundle/ZenCoding/syntax/syncolor.vim"[J
+1332814248.59513: Searching for "/home/finder/.vim/bundle/ack/syntax/syncolor.vim"[J
+1332814248.59514: Searching for "/home/finder/.vim/bundle/argtextobj/syntax/syncolor.vim"[J
+1332814248.59515: Searching for "/home/finder/.vim/bundle/echofunc/syntax/syncolor.vim"[J
+1332814248.59515: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/syntax/syncolor.vim"[J
+1332814248.59516: Searching for "/home/finder/.vim/bundle/gitdiff/syntax/syncolor.vim"[J
+1332814248.59516: Searching for "/home/finder/.vim/bundle/gitv/syntax/syncolor.vim"[J
+1332814248.59517: Searching for "/home/finder/.vim/bundle/grep/syntax/syncolor.vim"[J
+1332814248.59518: Searching for "/home/finder/.vim/bundle/pylint/syntax/syncolor.vim"[J
+1332814248.59518: Searching for "/home/finder/.vim/bundle/rope-vim/syntax/syncolor.vim"[J
+1332814248.59519: Searching for "/home/finder/.vim/bundle/snipmate/syntax/syncolor.vim"[J
+1332814248.59519: Searching for "/home/finder/.vim/bundle/snippets/syntax/syncolor.vim"[J
+1332814248.5952: Searching for "/home/finder/.vim/bundle/snippetsEmu/syntax/syncolor.vim"[J
+1332814248.59521: Searching for "/home/finder/.vim/bundle/surround/syntax/syncolor.vim"[J
+1332814248.59522: Searching for "/home/finder/.vim/bundle/vim-fugitive/syntax/syncolor.vim"[J
+1332814248.6001: Searching for "/home/finder/.vim/bundle/vim-indent-object/syntax/syncolor.vim"[J
+1332814248.60011: Searching for "/home/finder/.vim/bundle/vimwiki/syntax/syncolor.vim"[J
+1332814248.60012: Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"[J
+1332814248.60013: Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.60013: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.60014: fchdir() to previous dir[J
+1332814248.60014: line 4: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.60015: finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim[J
+1332814248.60015: continuing in /home/finder/Dropbox/vim/colors/twilight2.vim[J
+1332814248.60016: Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"[J
+1332814248.60016: Searching for "/home/finder/.vim/bundle/snipmate/after/syntax/syncolor.vim"[J
+1332814248.60017: Searching for "/home/finder/.vim/after/syntax/syncolor.vim"[J
+1332814248.60018: Searching for "syntax/syncolor.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.60018: Searching for "/home/finder/.vim/syntax/syncolor.vim"[J
+1332814248.60019: Searching for "/home/finder/.vim/bundle/CSApprox/syntax/syncolor.vim"[J
+1332814248.60019: Searching for "/home/finder/.vim/bundle/FindFile/syntax/syncolor.vim"[J
+1332814248.6002: Searching for "/home/finder/.vim/bundle/LargeFile/syntax/syncolor.vim"[J
+1332814248.60021: Searching for "/home/finder/.vim/bundle/ManPageView/syntax/syncolor.vim"[J
+1332814248.60021: Searching for "/home/finder/.vim/bundle/PySmell/syntax/syncolor.vim"[J
+1332814248.60022: Searching for "/home/finder/.vim/bundle/ZenCoding/syntax/syncolor.vim"[J
+1332814248.60022: Searching for "/home/finder/.vim/bundle/ack/syntax/syncolor.vim"[J
+1332814248.60023: Searching for "/home/finder/.vim/bundle/argtextobj/syntax/syncolor.vim"[J
+1332814248.60023: Searching for "/home/finder/.vim/bundle/echofunc/syntax/syncolor.vim"[J
+1332814248.60024: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/syntax/syncolor.vim"[J
+1332814248.60024: Searching for "/home/finder/.vim/bundle/gitdiff/syntax/syncolor.vim"[J
+1332814248.60025: Searching for "/home/finder/.vim/bundle/gitv/syntax/syncolor.vim"[J
+1332814248.60026: Searching for "/home/finder/.vim/bundle/grep/syntax/syncolor.vim"[J
+1332814248.60026: Searching for "/home/finder/.vim/bundle/pylint/syntax/syncolor.vim"[J
+1332814248.60027: Searching for "/home/finder/.vim/bundle/rope-vim/syntax/syncolor.vim"[J
+1332814248.60027: Searching for "/home/finder/.vim/bundle/snipmate/syntax/syncolor.vim"[J
+1332814248.60028: Searching for "/home/finder/.vim/bundle/snippets/syntax/syncolor.vim"[J
+1332814248.60029: Searching for "/home/finder/.vim/bundle/snippetsEmu/syntax/syncolor.vim"[J
+1332814248.60029: Searching for "/home/finder/.vim/bundle/surround/syntax/syncolor.vim"[J
+1332814248.6003: Searching for "/home/finder/.vim/bundle/vim-fugitive/syntax/syncolor.vim"[J
+1332814248.60031: Searching for "/home/finder/.vim/bundle/vim-indent-object/syntax/syncolor.vim"[J
+1332814248.60031: Searching for "/home/finder/.vim/bundle/vimwiki/syntax/syncolor.vim"[J
+1332814248.60032: Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"[J
+1332814248.60032: Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.60033: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.60033: fchdir() to previous dir[J
+1332814248.60043: line 5: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.60088: finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim[J
+1332814248.60137: continuing in /home/finder/Dropbox/vim/colors/twilight2.vim[J
+1332814248.60186: Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"[J
+1332814248.60242: Searching for "/home/finder/.vim/bundle/snipmate/after/syntax/syncolor.vim"[J
+1332814248.60306: Searching for "/home/finder/.vim/after/syntax/syncolor.vim"[J
+1332814248.60793: Searching for "syntax/syncolor.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.60801: Searching for "/home/finder/.vim/syntax/syncolor.vim"[J
+1332814248.60812: Searching for "/home/finder/.vim/bundle/CSApprox/syntax/syncolor.vim"[J
+1332814248.60823: Searching for "/home/finder/.vim/bundle/FindFile/syntax/syncolor.vim"[J
+1332814248.60832: Searching for "/home/finder/.vim/bundle/LargeFile/syntax/syncolor.vim"[J
+1332814248.60843: Searching for "/home/finder/.vim/bundle/ManPageView/syntax/syncolor.vim"[J
+1332814248.60853: Searching for "/home/finder/.vim/bundle/PySmell/syntax/syncolor.vim"[J
+1332814248.60863: Searching for "/home/finder/.vim/bundle/ZenCoding/syntax/syncolor.vim"[J
+1332814248.60872: Searching for "/home/finder/.vim/bundle/ack/syntax/syncolor.vim"[J
+1332814248.60882: Searching for "/home/finder/.vim/bundle/argtextobj/syntax/syncolor.vim"[J
+1332814248.60892: Searching for "/home/finder/.vim/bundle/echofunc/syntax/syncolor.vim"[J
+1332814248.60902: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/syntax/syncolor.vim"[J
+1332814248.60913: Searching for "/home/finder/.vim/bundle/gitdiff/syntax/syncolor.vim"[J
+1332814248.60923: Searching for "/home/finder/.vim/bundle/gitv/syntax/syncolor.vim"[J
+1332814248.60932: Searching for "/home/finder/.vim/bundle/grep/syntax/syncolor.vim"[J
+1332814248.60942: Searching for "/home/finder/.vim/bundle/pylint/syntax/syncolor.vim"[J
+1332814248.60952: Searching for "/home/finder/.vim/bundle/rope-vim/syntax/syncolor.vim"[J
+1332814248.60962: Searching for "/home/finder/.vim/bundle/snipmate/syntax/syncolor.vim"[J
+1332814248.60972: Searching for "/home/finder/.vim/bundle/snippets/syntax/syncolor.vim"[J
+1332814248.60982: Searching for "/home/finder/.vim/bundle/snippetsEmu/syntax/syncolor.vim"[J
+1332814248.60992: Searching for "/home/finder/.vim/bundle/surround/syntax/syncolor.vim"[J
+1332814248.61003: Searching for "/home/finder/.vim/bundle/vim-fugitive/syntax/syncolor.vim"[J
+1332814248.61015: Searching for "/home/finder/.vim/bundle/vim-indent-object/syntax/syncolor.vim"[J
+1332814248.61024: Searching for "/home/finder/.vim/bundle/vimwiki/syntax/syncolor.vim"[J
+1332814248.61032: Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"[J
+1332814248.61042: Searching for "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.61048: chdir(/usr/share/vim/vim73/syntax)[J
+1332814248.61054: fchdir() to previous dir[J
+1332814248.61103: line 7: sourcing "/usr/share/vim/vim73/syntax/syncolor.vim"[J
+1332814248.61113: finished sourcing /usr/share/vim/vim73/syntax/syncolor.vim[J
+1332814248.61122: continuing in /home/finder/Dropbox/vim/colors/twilight2.vim[J
+1332814248.61131: Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"[J
+1332814248.61142: Searching for "/home/finder/.vim/bundle/snipmate/after/syntax/syncolor.vim"[J
+1332814248.61181: Searching for "/home/finder/.vim/after/syntax/syncolor.vim"[J
+1332814248.61189: finished sourcing /home/finder/.vim/colors/twilight2.vim[J
+1332814248.612: continuing in /home/finder/.vimrc[J
+1332814248.61324: Searching for "autoload/ipi.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.61335: Searching for "/home/finder/.vim/autoload/ipi.vim"[J
+1332814248.6134: chdir(/home/finder/.vim/autoload)[J
+1332814248.61346: fchdir() to previous dir[J
+1332814248.61388: line 150: sourcing "/home/finder/.vim/autoload/ipi.vim"[J
+1332814248.61395: finished sourcing /home/finder/.vim/autoload/ipi.vim[J
+1332814248.61859: continuing in /home/finder/.vimrc[J
+1332814248.61863: finished sourcing $HOME/.vimrc[J
+1332814248.62694: Searching for "plugin/**/*.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.62697: Searching for "/home/finder/.vim/plugin/**/*.vim"[J
+1332814248.62698: chdir(/home/finder/.vim/plugin)[J
+1332814248.62699: fchdir() to previous dir[J
+1332814248.71042: sourcing "/home/finder/.vim/plugin/bike.vim"[J
+1332814248.71089: finished sourcing /home/finder/.vim/plugin/bike.vim[J
+1332814248.71133: chdir(/home/finder/.vim/plugin)[J
+1332814248.71158: fchdir() to previous dir[J
+1332814248.71211: sourcing "/home/finder/.vim/plugin/zoom.vim"[J
+1332814248.71253: finished sourcing /home/finder/.vim/plugin/zoom.vim[J
+1332814248.71316: Searching for "/home/finder/.vim/bundle/CSApprox/plugin/**/*.vim"[J
+1332814248.7133: chdir(/home/finder/.vim/bundle/CSApprox/plugin)[J
+1332814248.71336: fchdir() to previous dir[J
+1332814248.71357: sourcing "/home/finder/.vim/bundle/CSApprox/plugin/CSApprox.vim"[J
+1332814248.71496: finished sourcing /home/finder/.vim/bundle/CSApprox/plugin/CSApprox.vim[J
+1332814248.71519: Searching for "/home/finder/.vim/bundle/FindFile/plugin/**/*.vim"[J
+1332814248.71526: chdir(/home/finder/.vim/bundle/FindFile/plugin)[J
+1332814248.71533: fchdir() to previous dir[J
+1332814248.71588: sourcing "/home/finder/.vim/bundle/FindFile/plugin/FindFile.vim"[J
+1332814248.71599: finished sourcing /home/finder/.vim/bundle/FindFile/plugin/FindFile.vim[J
+1332814248.7162: Searching for "/home/finder/.vim/bundle/LargeFile/plugin/**/*.vim"[J
+1332814248.71627: chdir(/home/finder/.vim/bundle/LargeFile/plugin)[J
+1332814248.71633: fchdir() to previous dir[J
+1332814248.71697: sourcing "/home/finder/.vim/bundle/LargeFile/plugin/LargeFile.vim"[J
+1332814248.7171: finished sourcing /home/finder/.vim/bundle/LargeFile/plugin/LargeFile.vim[J
+1332814248.7173: Searching for "/home/finder/.vim/bundle/ManPageView/plugin/**/*.vim"[J
+1332814248.71737: chdir(/home/finder/.vim/bundle/ManPageView/plugin)[J
+1332814248.71743: fchdir() to previous dir[J
+1332814248.71815: sourcing "/home/finder/.vim/bundle/ManPageView/plugin/manpageviewPlugin.vim"[J
+1332814248.71827: finished sourcing /home/finder/.vim/bundle/ManPageView/plugin/manpageviewPlugin.vim[J
+1332814248.71846: Searching for "/home/finder/.vim/bundle/PySmell/plugin/**/*.vim"[J
+1332814248.71851: chdir(/home/finder/.vim/bundle/PySmell/plugin)[J
+1332814248.71856: fchdir() to previous dir[J
+1332814248.73979: sourcing "/home/finder/.vim/bundle/PySmell/plugin/pysmell.vim"[J
+1332814248.74679: Searching for "autoload/pysmell.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.74724: Searching for "/home/finder/.vim/autoload/pysmell.vim"[J
+1332814248.74776: Searching for "/home/finder/.vim/bundle/CSApprox/autoload/pysmell.vim"[J
+1332814248.74832: Searching for "/home/finder/.vim/bundle/FindFile/autoload/pysmell.vim"[J
+1332814248.74886: Searching for "/home/finder/.vim/bundle/LargeFile/autoload/pysmell.vim"[J
+1332814248.74942: Searching for "/home/finder/.vim/bundle/ManPageView/autoload/pysmell.vim"[J
+1332814248.74993: Searching for "/home/finder/.vim/bundle/PySmell/autoload/pysmell.vim"[J
+1332814248.75047: Searching for "/home/finder/.vim/bundle/ZenCoding/autoload/pysmell.vim"[J
+1332814248.75096: Searching for "/home/finder/.vim/bundle/ack/autoload/pysmell.vim"[J
+1332814248.7515: Searching for "/home/finder/.vim/bundle/argtextobj/autoload/pysmell.vim"[J
+1332814248.75202: Searching for "/home/finder/.vim/bundle/echofunc/autoload/pysmell.vim"[J
+1332814248.75263: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/autoload/pysmell.vim"[J
+1332814248.75316: Searching for "/home/finder/.vim/bundle/gitdiff/autoload/pysmell.vim"[J
+1332814248.75365: Searching for "/home/finder/.vim/bundle/gitv/autoload/pysmell.vim"[J
+1332814248.75416: Searching for "/home/finder/.vim/bundle/grep/autoload/pysmell.vim"[J
+1332814248.75467: Searching for "/home/finder/.vim/bundle/pylint/autoload/pysmell.vim"[J
+1332814248.75521: Searching for "/home/finder/.vim/bundle/rope-vim/autoload/pysmell.vim"[J
+1332814248.75652: Searching for "/home/finder/.vim/bundle/snipmate/autoload/pysmell.vim"[J
+1332814248.75654: Searching for "/home/finder/.vim/bundle/snippets/autoload/pysmell.vim"[J
+1332814248.75654: Searching for "/home/finder/.vim/bundle/snippetsEmu/autoload/pysmell.vim"[J
+1332814248.75655: Searching for "/home/finder/.vim/bundle/surround/autoload/pysmell.vim"[J
+1332814248.75656: Searching for "/home/finder/.vim/bundle/vim-fugitive/autoload/pysmell.vim"[J
+1332814248.75656: Searching for "/home/finder/.vim/bundle/vim-indent-object/autoload/pysmell.vim"[J
+1332814248.75657: Searching for "/home/finder/.vim/bundle/vimwiki/autoload/pysmell.vim"[J
+1332814248.75657: Searching for "/usr/share/vim/vimfiles/autoload/pysmell.vim"[J
+1332814248.75658: Searching for "/usr/share/vim/vim73/autoload/pysmell.vim"[J
+1332814248.75658: Searching for "/usr/share/vim/vimfiles/after/autoload/pysmell.vim"[J
+1332814248.75699: Searching for "/home/finder/.vim/bundle/snipmate/after/autoload/pysmell.vim"[J
+1332814248.75746: Searching for "/home/finder/.vim/after/autoload/pysmell.vim"[J
+1332814248.75862: not found in 'runtimepath': "autoload/pysmell.vim"[J
+1332814248.75917: finished sourcing /home/finder/.vim/bundle/PySmell/plugin/pysmell.vim[J
+1332814248.75978: Searching for "/home/finder/.vim/bundle/ZenCoding/plugin/**/*.vim"[J
+1332814248.76018: chdir(/home/finder/.vim/bundle/ZenCoding/plugin)[J
+1332814248.76041: fchdir() to previous dir[J
+1332814248.76598: sourcing "/home/finder/.vim/bundle/ZenCoding/plugin/zencoding.vim"[J
+1332814248.76607: finished sourcing /home/finder/.vim/bundle/ZenCoding/plugin/zencoding.vim[J
+1332814248.76631: Searching for "/home/finder/.vim/bundle/ack/plugin/**/*.vim"[J
+1332814248.76638: chdir(/home/finder/.vim/bundle/ack/plugin)[J
+1332814248.76643: fchdir() to previous dir[J
+1332814248.76679: sourcing "/home/finder/.vim/bundle/ack/plugin/ack.vim"[J
+1332814248.76687: finished sourcing /home/finder/.vim/bundle/ack/plugin/ack.vim[J
+1332814248.76707: Searching for "/home/finder/.vim/bundle/argtextobj/plugin/**/*.vim"[J
+1332814248.76716: chdir(/home/finder/.vim/bundle/argtextobj/plugin)[J
+1332814248.76722: fchdir() to previous dir[J
+1332814248.76782: sourcing "/home/finder/.vim/bundle/argtextobj/plugin/argtextobj.vim"[J
+1332814248.76791: finished sourcing /home/finder/.vim/bundle/argtextobj/plugin/argtextobj.vim[J
+1332814248.7683: Searching for "/home/finder/.vim/bundle/echofunc/plugin/**/*.vim"[J
+1332814248.76837: chdir(/home/finder/.vim/bundle/echofunc/plugin)[J
+1332814248.76847: fchdir() to previous dir[J
+1332814248.76954: sourcing "/home/finder/.vim/bundle/echofunc/plugin/echofunc.vim"[J
+1332814248.76965: finished sourcing /home/finder/.vim/bundle/echofunc/plugin/echofunc.vim[J
+1332814248.76991: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/**/*.vim"[J
+1332814248.77: chdir(/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin)[J
+1332814248.77006: fchdir() to previous dir[J
+1332814248.77549: sourcing "/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/fuzzyfinder.vim"[J
+1332814248.77562: finished sourcing /home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/fuzzyfinder.vim[J
+1332814248.77571: chdir(/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin)[J
+1332814248.77577: fchdir() to previous dir[J
+1332814248.78301: sourcing "/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/fuzzyfinder_textmate.vim"[J
+1332814248.78375: finished sourcing /home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/fuzzyfinder_textmate.vim[J
+1332814248.78438: Searching for "/home/finder/.vim/bundle/gitdiff/plugin/**/*.vim"[J
+1332814248.78474: chdir(/home/finder/.vim/bundle/gitdiff/plugin)[J
+1332814248.78498: fchdir() to previous dir[J
+1332814248.78573: sourcing "/home/finder/.vim/bundle/gitdiff/plugin/gitdiff.vim"[J
+1332814248.78626: finished sourcing /home/finder/.vim/bundle/gitdiff/plugin/gitdiff.vim[J
+1332814248.78683: Searching for "/home/finder/.vim/bundle/gitv/plugin/**/*.vim"[J
+1332814248.78739: chdir(/home/finder/.vim/bundle/gitv/plugin)[J
+1332814248.78763: fchdir() to previous dir[J
+1332814248.78937: sourcing "/home/finder/.vim/bundle/gitv/plugin/gitv.vim"[J
+1332814248.78986: finished sourcing /home/finder/.vim/bundle/gitv/plugin/gitv.vim[J
+1332814248.79046: Searching for "/home/finder/.vim/bundle/grep/plugin/**/*.vim"[J
+1332814248.79079: chdir(/home/finder/.vim/bundle/grep/plugin)[J
+1332814248.79103: fchdir() to previous dir[J
+1332814248.79331: sourcing "/home/finder/.vim/bundle/grep/plugin/grep.vim"[J
+1332814248.79388: finished sourcing /home/finder/.vim/bundle/grep/plugin/grep.vim[J
+1332814248.79439: Searching for "/home/finder/.vim/bundle/pylint/plugin/**/*.vim"[J
+1332814248.795: Searching for "/home/finder/.vim/bundle/rope-vim/plugin/**/*.vim"[J
+1332814248.79538: chdir(/home/finder/.vim/bundle/rope-vim/plugin)[J
+1332814248.79561: fchdir() to previous dir[J
+1332814248.9337: sourcing "/home/finder/.vim/bundle/rope-vim/plugin/ropevim.vim"[J
+1332814248.93379: finished sourcing /home/finder/.vim/bundle/rope-vim/plugin/ropevim.vim[J
+1332814248.93402: Searching for "/home/finder/.vim/bundle/snipmate/plugin/**/*.vim"[J
+1332814248.93407: chdir(/home/finder/.vim/bundle/snipmate/plugin)[J
+1332814248.93415: fchdir() to previous dir[J
+1332814248.93536: sourcing "/home/finder/.vim/bundle/snipmate/plugin/snipMate.vim"[J
+1332814248.93546: finished sourcing /home/finder/.vim/bundle/snipmate/plugin/snipMate.vim[J
+1332814248.93566: Searching for "/home/finder/.vim/bundle/snippets/plugin/**/*.vim"[J
+1332814248.93572: chdir(/home/finder/.vim/bundle/snippets/plugin)[J
+1332814248.93577: fchdir() to previous dir[J
+1332814248.93763: sourcing "/home/finder/.vim/bundle/snippets/plugin/snippets.vim"[J
+1332814248.93774: finished sourcing /home/finder/.vim/bundle/snippets/plugin/snippets.vim[J
+1332814248.93793: Searching for "/home/finder/.vim/bundle/snippetsEmu/plugin/**/*.vim"[J
+1332814248.938: chdir(/home/finder/.vim/bundle/snippetsEmu/plugin)[J
+1332814248.93806: fchdir() to previous dir[J
+1332814248.94441: sourcing "/home/finder/.vim/bundle/snippetsEmu/plugin/snippetsEmu.vim"[J
+1332814248.94453: finished sourcing /home/finder/.vim/bundle/snippetsEmu/plugin/snippetsEmu.vim[J
+1332814248.94473: Searching for "/home/finder/.vim/bundle/surround/plugin/**/*.vim"[J
+1332814248.94478: chdir(/home/finder/.vim/bundle/surround/plugin)[J
+1332814248.94484: fchdir() to previous dir[J
+1332814248.94666: sourcing "/home/finder/.vim/bundle/surround/plugin/surround.vim"[J
+1332814248.94676: finished sourcing /home/finder/.vim/bundle/surround/plugin/surround.vim[J
+1332814248.94696: Searching for "/home/finder/.vim/bundle/vim-fugitive/plugin/**/*.vim"[J
+1332814248.94704: chdir(/home/finder/.vim/bundle/vim-fugitive/plugin)[J
+1332814248.94711: fchdir() to previous dir[J
+1332814248.94889: sourcing "/home/finder/.vim/bundle/vim-fugitive/plugin/fugitive.vim"[J
+1332814248.95018: Searching for "autoload/fugitive.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.95026: Searching for "/home/finder/.vim/autoload/fugitive.vim"[J
+1332814248.95036: Searching for "/home/finder/.vim/bundle/CSApprox/autoload/fugitive.vim"[J
+1332814248.95203: Searching for "/home/finder/.vim/bundle/FindFile/autoload/fugitive.vim"[J
+1332814248.95205: Searching for "/home/finder/.vim/bundle/LargeFile/autoload/fugitive.vim"[J
+1332814248.95205: Searching for "/home/finder/.vim/bundle/ManPageView/autoload/fugitive.vim"[J
+1332814248.95206: Searching for "/home/finder/.vim/bundle/PySmell/autoload/fugitive.vim"[J
+1332814248.95206: Searching for "/home/finder/.vim/bundle/ZenCoding/autoload/fugitive.vim"[J
+1332814248.95207: Searching for "/home/finder/.vim/bundle/ack/autoload/fugitive.vim"[J
+1332814248.95209: Searching for "/home/finder/.vim/bundle/argtextobj/autoload/fugitive.vim"[J
+1332814248.9521: Searching for "/home/finder/.vim/bundle/echofunc/autoload/fugitive.vim"[J
+1332814248.9521: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/autoload/fugitive.vim"[J
+1332814248.95211: Searching for "/home/finder/.vim/bundle/gitdiff/autoload/fugitive.vim"[J
+1332814248.95212: Searching for "/home/finder/.vim/bundle/gitv/autoload/fugitive.vim"[J
+1332814248.95212: Searching for "/home/finder/.vim/bundle/grep/autoload/fugitive.vim"[J
+1332814248.95213: Searching for "/home/finder/.vim/bundle/pylint/autoload/fugitive.vim"[J
+1332814248.95213: Searching for "/home/finder/.vim/bundle/rope-vim/autoload/fugitive.vim"[J
+1332814248.95214: Searching for "/home/finder/.vim/bundle/snipmate/autoload/fugitive.vim"[J
+1332814248.95214: Searching for "/home/finder/.vim/bundle/snippets/autoload/fugitive.vim"[J
+1332814248.95215: Searching for "/home/finder/.vim/bundle/snippetsEmu/autoload/fugitive.vim"[J
+1332814248.95215: Searching for "/home/finder/.vim/bundle/surround/autoload/fugitive.vim"[J
+1332814248.95216: Searching for "/home/finder/.vim/bundle/vim-fugitive/autoload/fugitive.vim"[J
+1332814248.95216: Searching for "/home/finder/.vim/bundle/vim-indent-object/autoload/fugitive.vim"[J
+1332814248.95217: Searching for "/home/finder/.vim/bundle/vimwiki/autoload/fugitive.vim"[J
+1332814248.9522: Searching for "/usr/share/vim/vimfiles/autoload/fugitive.vim"[J
+1332814248.9523: Searching for "/usr/share/vim/vim73/autoload/fugitive.vim"[J
+1332814248.95238: Searching for "/usr/share/vim/vimfiles/after/autoload/fugitive.vim"[J
+1332814248.95249: Searching for "/home/finder/.vim/bundle/snipmate/after/autoload/fugitive.vim"[J
+1332814248.95256: Searching for "/home/finder/.vim/after/autoload/fugitive.vim"[J
+1332814248.95726: not found in 'runtimepath': "autoload/fugitive.vim"[J
+1332814248.95739: finished sourcing /home/finder/.vim/bundle/vim-fugitive/plugin/fugitive.vim[J
+1332814248.95762: Searching for "/home/finder/.vim/bundle/vim-indent-object/plugin/**/*.vim"[J
+1332814248.9577: chdir(/home/finder/.vim/bundle/vim-indent-object/plugin)[J
+1332814248.95775: fchdir() to previous dir[J
+1332814248.95858: sourcing "/home/finder/.vim/bundle/vim-indent-object/plugin/indent-object.vim"[J
+1332814248.9587: finished sourcing /home/finder/.vim/bundle/vim-indent-object/plugin/indent-object.vim[J
+1332814248.95888: Searching for "/home/finder/.vim/bundle/vimwiki/plugin/**/*.vim"[J
+1332814248.95895: chdir(/home/finder/.vim/bundle/vimwiki/plugin)[J
+1332814248.95901: fchdir() to previous dir[J
+1332814248.96216: sourcing "/home/finder/.vim/bundle/vimwiki/plugin/vimwiki.vim"[J
+1332814248.96272: finished sourcing /home/finder/.vim/bundle/vimwiki/plugin/vimwiki.vim[J
+1332814248.96339: Searching for "/usr/share/vim/vimfiles/plugin/**/*.vim"[J
+1332814248.9637: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.96395: fchdir() to previous dir[J
+1332814248.9648: sourcing "/usr/share/vim/vimfiles/plugin/bugsummary.vim"[J
+1332814248.96532: finished sourcing /usr/share/vim/vimfiles/plugin/bugsummary.vim[J
+1332814248.96561: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.96566: fchdir() to previous dir[J
+1332814248.96586: sourcing "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.96598: finished sourcing /usr/share/vim/vimfiles/plugin/gentoo-common.vim[J
+1332814248.96603: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.96757: fchdir() to previous dir[J
+1332814248.96758: sourcing "/usr/share/vim/vimfiles/plugin/newebuild.vim"[J
+1332814248.96759: Searching for "plugin/gentoo-common.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.9676: Searching for "/home/finder/.vim/plugin/gentoo-common.vim"[J
+1332814248.9676: Searching for "/home/finder/.vim/bundle/CSApprox/plugin/gentoo-common.vim"[J
+1332814248.96761: Searching for "/home/finder/.vim/bundle/FindFile/plugin/gentoo-common.vim"[J
+1332814248.96761: Searching for "/home/finder/.vim/bundle/LargeFile/plugin/gentoo-common.vim"[J
+1332814248.96762: Searching for "/home/finder/.vim/bundle/ManPageView/plugin/gentoo-common.vim"[J
+1332814248.96764: Searching for "/home/finder/.vim/bundle/PySmell/plugin/gentoo-common.vim"[J
+1332814248.96776: Searching for "/home/finder/.vim/bundle/ZenCoding/plugin/gentoo-common.vim"[J
+1332814248.96785: Searching for "/home/finder/.vim/bundle/ack/plugin/gentoo-common.vim"[J
+1332814248.96796: Searching for "/home/finder/.vim/bundle/argtextobj/plugin/gentoo-common.vim"[J
+1332814248.96807: Searching for "/home/finder/.vim/bundle/echofunc/plugin/gentoo-common.vim"[J
+1332814248.96821: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/gentoo-common.vim"[J
+1332814248.96831: Searching for "/home/finder/.vim/bundle/gitdiff/plugin/gentoo-common.vim"[J
+1332814248.96842: Searching for "/home/finder/.vim/bundle/gitv/plugin/gentoo-common.vim"[J
+1332814248.96852: Searching for "/home/finder/.vim/bundle/grep/plugin/gentoo-common.vim"[J
+1332814248.96861: Searching for "/home/finder/.vim/bundle/pylint/plugin/gentoo-common.vim"[J
+1332814248.96872: Searching for "/home/finder/.vim/bundle/rope-vim/plugin/gentoo-common.vim"[J
+1332814248.96882: Searching for "/home/finder/.vim/bundle/snipmate/plugin/gentoo-common.vim"[J
+1332814248.96893: Searching for "/home/finder/.vim/bundle/snippets/plugin/gentoo-common.vim"[J
+1332814248.96904: Searching for "/home/finder/.vim/bundle/snippetsEmu/plugin/gentoo-common.vim"[J
+1332814248.96916: Searching for "/home/finder/.vim/bundle/surround/plugin/gentoo-common.vim"[J
+1332814248.96927: Searching for "/home/finder/.vim/bundle/vim-fugitive/plugin/gentoo-common.vim"[J
+1332814248.96939: Searching for "/home/finder/.vim/bundle/vim-indent-object/plugin/gentoo-common.vim"[J
+1332814248.9695: Searching for "/home/finder/.vim/bundle/vimwiki/plugin/gentoo-common.vim"[J
+1332814248.96962: Searching for "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.96967: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.96973: fchdir() to previous dir[J
+1332814248.96986: line 13: sourcing "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.96994: finished sourcing /usr/share/vim/vimfiles/plugin/gentoo-common.vim[J
+1332814248.97004: continuing in /usr/share/vim/vimfiles/plugin/newebuild.vim[J
+1332814248.97015: Searching for "/usr/share/vim/vim73/plugin/gentoo-common.vim"[J
+1332814248.97024: Searching for "/usr/share/vim/vimfiles/after/plugin/gentoo-common.vim"[J
+1332814248.97036: Searching for "/home/finder/.vim/bundle/snipmate/after/plugin/gentoo-common.vim"[J
+1332814248.97158: Searching for "/home/finder/.vim/after/plugin/gentoo-common.vim"[J
+1332814248.97159: finished sourcing /usr/share/vim/vimfiles/plugin/newebuild.vim[J
+1332814248.9716: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.9716: fchdir() to previous dir[J
+1332814248.97161: sourcing "/usr/share/vim/vimfiles/plugin/newinitd.vim"[J
+1332814248.97281: Searching for "plugin/gentoo-common.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.97288: Searching for "/home/finder/.vim/plugin/gentoo-common.vim"[J
+1332814248.97299: Searching for "/home/finder/.vim/bundle/CSApprox/plugin/gentoo-common.vim"[J
+1332814248.97311: Searching for "/home/finder/.vim/bundle/FindFile/plugin/gentoo-common.vim"[J
+1332814248.97323: Searching for "/home/finder/.vim/bundle/LargeFile/plugin/gentoo-common.vim"[J
+1332814248.97334: Searching for "/home/finder/.vim/bundle/ManPageView/plugin/gentoo-common.vim"[J
+1332814248.97344: Searching for "/home/finder/.vim/bundle/PySmell/plugin/gentoo-common.vim"[J
+1332814248.97355: Searching for "/home/finder/.vim/bundle/ZenCoding/plugin/gentoo-common.vim"[J
+1332814248.97365: Searching for "/home/finder/.vim/bundle/ack/plugin/gentoo-common.vim"[J
+1332814248.97376: Searching for "/home/finder/.vim/bundle/argtextobj/plugin/gentoo-common.vim"[J
+1332814248.97386: Searching for "/home/finder/.vim/bundle/echofunc/plugin/gentoo-common.vim"[J
+1332814248.97399: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/gentoo-common.vim"[J
+1332814248.97411: Searching for "/home/finder/.vim/bundle/gitdiff/plugin/gentoo-common.vim"[J
+1332814248.97422: Searching for "/home/finder/.vim/bundle/gitv/plugin/gentoo-common.vim"[J
+1332814248.97431: Searching for "/home/finder/.vim/bundle/grep/plugin/gentoo-common.vim"[J
+1332814248.97442: Searching for "/home/finder/.vim/bundle/pylint/plugin/gentoo-common.vim"[J
+1332814248.97453: Searching for "/home/finder/.vim/bundle/rope-vim/plugin/gentoo-common.vim"[J
+1332814248.97463: Searching for "/home/finder/.vim/bundle/snipmate/plugin/gentoo-common.vim"[J
+1332814248.97475: Searching for "/home/finder/.vim/bundle/snippets/plugin/gentoo-common.vim"[J
+1332814248.97483: Searching for "/home/finder/.vim/bundle/snippetsEmu/plugin/gentoo-common.vim"[J
+1332814248.97494: Searching for "/home/finder/.vim/bundle/surround/plugin/gentoo-common.vim"[J
+1332814248.97505: Searching for "/home/finder/.vim/bundle/vim-fugitive/plugin/gentoo-common.vim"[J
+1332814248.97519: Searching for "/home/finder/.vim/bundle/vim-indent-object/plugin/gentoo-common.vim"[J
+1332814248.97529: Searching for "/home/finder/.vim/bundle/vimwiki/plugin/gentoo-common.vim"[J
+1332814248.9754: Searching for "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.97545: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.97552: fchdir() to previous dir[J
+1332814248.97565: line 13: sourcing "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.97574: finished sourcing /usr/share/vim/vimfiles/plugin/gentoo-common.vim[J
+1332814248.97582: continuing in /usr/share/vim/vimfiles/plugin/newinitd.vim[J
+1332814248.97592: Searching for "/usr/share/vim/vim73/plugin/gentoo-common.vim"[J
+1332814248.97709: Searching for "/usr/share/vim/vimfiles/after/plugin/gentoo-common.vim"[J
+1332814248.97711: Searching for "/home/finder/.vim/bundle/snipmate/after/plugin/gentoo-common.vim"[J
+1332814248.97711: Searching for "/home/finder/.vim/after/plugin/gentoo-common.vim"[J
+1332814248.97712: finished sourcing /usr/share/vim/vimfiles/plugin/newinitd.vim[J
+1332814248.97713: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.97713: fchdir() to previous dir[J
+1332814248.97714: sourcing "/usr/share/vim/vimfiles/plugin/newmetadata.vim"[J
+1332814248.98932: Searching for "plugin/gentoo-common.vim" in "/home/finder/.vim,/home/finder/.vim/bundle/CSApprox,/home/finder/.vim/bundle/FindFile,/home/finder/.vim/bundle/LargeFile,/home/finder/.vim/bundle/ManPageView,/home/finder/.vim/bundle/PySmell,/home/finder/.vim/bundle/ZenCoding,/home/finder/.vim/bundle/ack,/home/finder/.vim/bundle/argtextobj,/home/finder/.vim/bundle/echofunc,/home/finder/.vim/bundle/fuzzyfinder_textmate,/home/finder/.vim/bundle/gitdiff,/home/finder/.vim/bundle/gitv,/home/finder/.vim/bundle/grep,/home/finder/.vim/bundle/pylint,/home/finder/.vim/bundle/rope-vim,/home/finder/.vim/bundle/snipmate,/home/finder/.vim/bundle/snippets,/home/finder/.vim/bundle/snippetsEmu,/home/finder/.vim/bundle/surround,/home/finder/.vim/bundle/vim-fugitive,/home/finder/.vim/bundle/vim-indent-object,/home/finder/.vim/bundle/vimwiki,/usr/share/vim/vimfiles,/usr/share/vim/vim73,/usr/share/vim/vimfiles/after,/home/finder/.vim/bundle/snipmate/after,/home/finder/.vim/after"[J
+1332814248.98934: Searching for "/home/finder/.vim/plugin/gentoo-common.vim"[J
+1332814248.98935: Searching for "/home/finder/.vim/bundle/CSApprox/plugin/gentoo-common.vim"[J
+1332814248.98935: Searching for "/home/finder/.vim/bundle/FindFile/plugin/gentoo-common.vim"[J
+1332814248.98936: Searching for "/home/finder/.vim/bundle/LargeFile/plugin/gentoo-common.vim"[J
+1332814248.98937: Searching for "/home/finder/.vim/bundle/ManPageView/plugin/gentoo-common.vim"[J
+1332814248.98937: Searching for "/home/finder/.vim/bundle/PySmell/plugin/gentoo-common.vim"[J
+1332814248.98938: Searching for "/home/finder/.vim/bundle/ZenCoding/plugin/gentoo-common.vim"[J
+1332814248.98938: Searching for "/home/finder/.vim/bundle/ack/plugin/gentoo-common.vim"[J
+1332814248.98939: Searching for "/home/finder/.vim/bundle/argtextobj/plugin/gentoo-common.vim"[J
+1332814248.98939: Searching for "/home/finder/.vim/bundle/echofunc/plugin/gentoo-common.vim"[J
+1332814248.9894: Searching for "/home/finder/.vim/bundle/fuzzyfinder_textmate/plugin/gentoo-common.vim"[J
+1332814248.98941: Searching for "/home/finder/.vim/bundle/gitdiff/plugin/gentoo-common.vim"[J
+1332814248.98941: Searching for "/home/finder/.vim/bundle/gitv/plugin/gentoo-common.vim"[J
+1332814248.98942: Searching for "/home/finder/.vim/bundle/grep/plugin/gentoo-common.vim"[J
+1332814248.98942: Searching for "/home/finder/.vim/bundle/pylint/plugin/gentoo-common.vim"[J
+1332814248.98943: Searching for "/home/finder/.vim/bundle/rope-vim/plugin/gentoo-common.vim"[J
+1332814248.98943: Searching for "/home/finder/.vim/bundle/snipmate/plugin/gentoo-common.vim"[J
+1332814248.98944: Searching for "/home/finder/.vim/bundle/snippets/plugin/gentoo-common.vim"[J
+1332814248.98944: Searching for "/home/finder/.vim/bundle/snippetsEmu/plugin/gentoo-common.vim"[J
+1332814248.98945: Searching for "/home/finder/.vim/bundle/surround/plugin/gentoo-common.vim"[J
+1332814248.98945: Searching for "/home/finder/.vim/bundle/vim-fugitive/plugin/gentoo-common.vim"[J
+1332814248.98946: Searching for "/home/finder/.vim/bundle/vim-indent-object/plugin/gentoo-common.vim"[J
+1332814248.98947: Searching for "/home/finder/.vim/bundle/vimwiki/plugin/gentoo-common.vim"[J
+1332814248.98947: Searching for "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.98948: chdir(/usr/share/vim/vimfiles/plugin)[J
+1332814248.98948: fchdir() to previous dir[J
+1332814248.98949: line 13: sourcing "/usr/share/vim/vimfiles/plugin/gentoo-common.vim"[J
+1332814248.99093: finished sourcing /usr/share/vim/vimfiles/plugin/gentoo-common.vim[J
+1332814248.99095: continuing in /usr/share/vim/vimfiles/plugin/newmetadata.vim[J
+1332814248.99096: Searching for "/usr/share/vim/vim73/plugin/gentoo-common.vim"[J
+1332814248.99096: Searching for "/usr/share/vim/vimfiles/after/plugin/gentoo-common.vim"[J
+1332814248.99097: Searching for "/home/finder/.vim/bundle/snipmate/after/plugin/gentoo-common.vim"[J
+1332814248.99097: Searching for "/home/finder/.vim/after/plugin/gentoo-common.vim"[J
+1332814248.99098: finished sourcing /usr/share/vim/vimfiles/plugin/newmetadata.vim[J
+1332814248.99098: Searching for "/usr/share/vim/vim73/plugin/**/*.vim"[J
+1332814248.99099: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99099: fchdir() to previous dir[J
+1332814248.991: sourcing "/usr/share/vim/vim73/plugin/getscriptPlugin.vim"[J
+1332814248.99101: finished sourcing /usr/share/vim/vim73/plugin/getscriptPlugin.vim[J
+1332814248.99101: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99102: fchdir() to previous dir[J
+1332814248.99102: sourcing "/usr/share/vim/vim73/plugin/gzip.vim"[J
+1332814248.99103: finished sourcing /usr/share/vim/vim73/plugin/gzip.vim[J
+1332814248.99103: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99104: fchdir() to previous dir[J
+1332814248.99104: sourcing "/usr/share/vim/vim73/plugin/matchparen.vim"[J
+1332814248.99105: finished sourcing /usr/share/vim/vim73/plugin/matchparen.vim[J
+1332814248.99105: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99106: fchdir() to previous dir[J
+1332814248.99106: sourcing "/usr/share/vim/vim73/plugin/netrwPlugin.vim"[J
+1332814248.99107: finished sourcing /usr/share/vim/vim73/plugin/netrwPlugin.vim[J
+1332814248.99108: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.9911: fchdir() to previous dir[J
+1332814248.9911: sourcing "/usr/share/vim/vim73/plugin/rrhelper.vim"[J
+1332814248.99111: finished sourcing /usr/share/vim/vim73/plugin/rrhelper.vim[J
+1332814248.99111: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99112: fchdir() to previous dir[J
+1332814248.99112: sourcing "/usr/share/vim/vim73/plugin/spellfile.vim"[J
+1332814248.99113: finished sourcing /usr/share/vim/vim73/plugin/spellfile.vim[J
+1332814248.99113: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99114: fchdir() to previous dir[J
+1332814248.99114: sourcing "/usr/share/vim/vim73/plugin/tarPlugin.vim"[J
+1332814248.99116: finished sourcing /usr/share/vim/vim73/plugin/tarPlugin.vim[J
+1332814248.99116: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99117: fchdir() to previous dir[J
+1332814248.99118: sourcing "/usr/share/vim/vim73/plugin/tohtml.vim"[J
+1332814248.99118: finished sourcing /usr/share/vim/vim73/plugin/tohtml.vim[J
+1332814248.99119: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99119: fchdir() to previous dir[J
+1332814248.9912: sourcing "/usr/share/vim/vim73/plugin/vimballPlugin.vim"[J
+1332814248.9912: finished sourcing /usr/share/vim/vim73/plugin/vimballPlugin.vim[J
+1332814248.99121: chdir(/usr/share/vim/vim73/plugin)[J
+1332814248.99121: fchdir() to previous dir[J
+1332814248.99122: sourcing "/usr/share/vim/vim73/plugin/zipPlugin.vim"[J
+1332814248.99122: finished sourcing /usr/share/vim/vim73/plugin/zipPlugin.vim[J
+1332814248.99123: Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"[J
+1332814248.99124: Searching for "/home/finder/.vim/bundle/snipmate/after/plugin/**/*.vim"[J
+1332814248.99124: chdir(/home/finder/.vim/bundle/snipmate/after/plugin)[J
+1332814248.99125: fchdir() to previous dir[J
+1332814248.9931: sourcing "/home/finder/.vim/bundle/snipmate/after/plugin/snipMate.vim"[J
+1332814248.99311: finished sourcing /home/finder/.vim/bundle/snipmate/after/plugin/snipMate.vim[J
+1332814248.99312: Searching for "/home/finder/.vim/after/plugin/**/*.vim"[J
+1332814248.99313: chdir(/home/finder/.vim/after/plugin)[J
+1332814248.99313: fchdir() to previous dir[J
+1332814248.99331: sourcing "/home/finder/.vim/after/plugin/snipMate.vim"[J
+1332814249.00835: finished sourcing /home/finder/.vim/after/plugin/snipMate.vim[J
+1332814249.00969: Opening the X display took 15 msec[J
+1332814249.015: Reading viminfo file "/home/finder/.viminfo" info oldfiles[JOpening the X display took 3 msec[J[?1002h
+1332814251.01352: Press ENTER or type command to continue[?12l[?25h[?1049h[?1h=[1;48r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[48;1HExecuting BufWinEnter Auto commands for "*"
+1332814251.01355: autocommand if s:diff_window_count() == 1 && &diff && getbufvar(+expand('<abuf>'), 'git_dir') !=# '' |
+1332814251.01356: diffoff | endif
+1332814251.01356: Executing BufEnter Auto commands for "*"
+1332814251.01357: autocommand for m in s:GetAvailableModes() | call m.extend_options() | call m.on_buf_enter() | endfor
+1332814251.01358: Executing BufEnter Auto commands for "*"
+1332814251.01358: autocommand sil! call s:LocalBrowse(expand("<amatch>"))
+1332814251.01359: Executing VimEnter Auto commands for "*"
+1332814252.9421: [38;5;121mPress ENTER or type command to continue[?12l[?25h[m
+1332814252.94213: [?25lautocommand call s:compatibility_check()
+1332814252.94213: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94214: Executing VimEnter Auto commands for "*"
+1332814252.94215: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94215: autocommand if expand('<amatch>')==''|call s:Detect(getcwd())|endif
+1332814252.94216: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94216: Executing VimEnter Auto commands for "*"
+1332814252.94217: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94217: autocommand sil! call s:VimEnter(expand("<amatch>"))
+1332814252.94218: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94218: [38;5;121mPress ENTER or type command to continue[mExecuting CursorMoved Auto commands for "*"
+1332814252.94219: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94219: autocommand call s:Highlight_Matching_Pair()
+1332814252.9422: [38;5;121mPress ENTER or type command to continue[m
+1332814252.94338: [1;1H[23L[1;1H[4m[93m 1 [m[4m                                                                                                    [m[2;1H[94m~                                                                                                      [3;1H~                                                                                                      [4;1H~                                                                                                      [5;1H~                                                                                                      [6;1H~                                                                                                      [7;1H~                                                                                                      [8;1H~                                                                                                      [9;1H~                                                                                                      [10;1H~                                                                                                      [11;1H~                                                                                                      [12;1H~                                                                                                      [13;1H~                                                                                                      [14;1H~                                                                                                      [15;1H~                                                                                                      [16;1H~                                                                                                      [17;1H~                                                                                                      [18;1H~                                                             

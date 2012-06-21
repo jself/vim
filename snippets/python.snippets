@@ -1,0 +1,34 @@
+snippet pdb
+	import ipdb; ipdb.set_trace()
+
+snippet ipdb
+	import ipdb; ipdb.set_trace()
+
+snippet class Basic object
+	class ${1:ClassName}(${2:object}):
+	    """${3:docstring}"""
+		def __init__(self, ${3:*args, **kwargs}):
+		    ${4:pass}
+
+snippet class Model
+	class ${1:ClassName}(models.Model):
+	    """${3:docstring}"""
+		${4:field = models.BooleanField()}
+
+snippet class Form
+	class ${1:ClassName}(forms.Form):
+	    """${3:docstring}"""
+		${4:field = forms.BooleanField()}
+
+snippet class Test
+	class ${1:ClassName}Test(${2:TestCase}):
+	    """${3:docstring}"""
+		def setUp(self):
+			${4:pass}
+
+		def tearDown(self):
+			${5:pass}
+
+		def test_${6:name}(self):
+			${7:pass}
+
