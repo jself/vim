@@ -79,3 +79,6 @@
 [submodule "ipi/calendar-vim"]
 	path = ipi/calendar-vim
 	url = https://github.com/hotoo/calendar-vim.git
+[submodule "vim-pathogen"]
+	path = vim-pathogen
+	url = https://github.com/tpope/vim-pathogen

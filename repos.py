@@ -25,6 +25,7 @@ class ReposManager(Cmd):
                 load(name, dirname + '/' + name, bundle)
 
     def do_add(self, arg):
+        arg = arg.split()
         if len(arg) != 2:
             print "Required arguments are (repos, dirname)"
             sys.exit(-1)
@@ -38,6 +39,10 @@ class ReposManager(Cmd):
 
         with open('repos.json', 'w') as f:
             json.dump(struct, f)
+
+        name = _mkname(repos)
+        load(name, dirname + '/' + name, repos)
+
 
     def do_update(self, arg):
         git('submodule foreach git submodule update'.split(' '))
