@@ -136,8 +136,6 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 " set undodir=~/.vimundo
 " set undolevels=1000
 " set undoreload=10000 
-autocmd FileType python compiler pylint
-let g:pylint_onwrite = 0
 if has("mac")
     set guifont=Inconsolata:h15<CR>
 endif
