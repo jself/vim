@@ -4,6 +4,9 @@ call pathogen#helptags()
 
 set tags+=$HOME/.vim/tags/python.ctags
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType go imap <C-Space> <C-x><C-o>
+autocmd FileType go set sw=4 
+autocmd FileType go set ts=4
 inoremap <Nul> <C-x><C-o>
 map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprevious<CR>
@@ -51,11 +54,6 @@ let python_highlight_space_errors = 1
 "colorscheme jellybeans
 set cursorline
 
-set ts=4
-set sw=4
-set autoindent
-set expandtab
-set smarttab
 syntax on
 let Tlist_Auto_Highlight_Tag = 1
 let Tlist_Use_Right_Window = 1
@@ -76,7 +74,7 @@ function! TabWrapperRope()
       return "\<C-R>=RopeCodeAssistInsertMode()\<CR>"
   endif
 endfunction
-imap <C-Space> <C-R>=TabWrapperRope()<CR>
+autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
   
 map <C-S> <ESC><S-v>:s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
 nmap <silent> <Leader>x, :silent! %s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
@@ -156,3 +154,6 @@ endif
 "disable bells
 set noeb vb t_vb=
 autocmd GUIEnter * set visualbell t_vb=
+
+set autoindent
+set smarttab

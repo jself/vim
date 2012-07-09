@@ -44,3 +44,7 @@ if has("gui_win32") && !exists("b:browsefilter")
     let b:browsefilter = "Python Files (*.py)\t*.py\n" .
 		       \ "All Files (*.*)\t*.*\n"
 endif
+
+set ts=4
+set sw=4
+set expandtab
