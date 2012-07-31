@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 import pbs
-from pbs import git, ls, cat, grep, test
+from pbs import git, ls, cat, grep, test, rm
 import json
 from cmd2 import Cmd
 import sys
@@ -17,7 +17,20 @@ def load(name, path, repos):
 
 
 class ReposManager(Cmd):
+    def do_reset(self, arg):
+        """Deletes and reloads all bundles"""
+        struct = json.load(open('repos.json'))
+        for dirname in struct:
+            for bundle in struct[dirname]:
+                name = _mkname(bundle)
+                path = dirname + '/' + name
+                rm('-R', '-f', path)
+                git('rm', path)
+        self.do_load
+
+
     def do_load(self, arg):
+        """Loads all bundles in repos.json (initiating the submodules)"""
         struct = json.load(open('repos.json'))
         for dirname in struct:
             for bundle in struct[dirname]:
@@ -25,6 +38,7 @@ class ReposManager(Cmd):
                 load(name, dirname + '/' + name, bundle)
 
     def do_add(self, arg):
+        """Usage: add repos dirname -- adds the repos and initiates it"""
         arg = arg.split()
         if len(arg) != 2:
             print "Required arguments are (repos, dirname)"
