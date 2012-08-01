@@ -12,7 +12,7 @@ map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprevious<CR>
 
 if has("ruby")
-    map \t :FuzzyFinderTextMate<CR>
+"    map \t :FuzzyFinderTextMate<CR>
     map \b :FuzzyFinderBuffer<CR>
 endif
 
