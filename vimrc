@@ -148,11 +148,11 @@ endif
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
 "Favorites
-"colorscheme twilight2
+colorscheme twilight2
 "Installed
 "colorscheme jellybeans
 "colorscheme zmrok
-colorscheme ir_black
+""colorscheme ir_black
 set vb t_vb=
 call ipi#inspect()
 if v:version >= 730
