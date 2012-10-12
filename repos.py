@@ -30,12 +30,15 @@ class ReposManager(Cmd):
 
 
     def do_load(self, arg):
-        """Loads all bundles in repos.json (initiating the submodules)"""
+        """Loads all bundles in repos.json (initiating the submodules) -- optional argument name"""
         struct = json.load(open('repos.json'))
         for dirname in struct:
             for bundle in struct[dirname]:
                 name = _mkname(bundle)
-                load(name, dirname + '/' + name, bundle)
+                if not arg:
+                    load(name, dirname + '/' + name, bundle)
+                if arg and name == arg[0]:
+                    load(name, dirname + '/' + name, bundle)
 
     def do_add(self, arg):
         """Usage: add repos dirname -- adds the repos and initiates it"""

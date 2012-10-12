@@ -13,7 +13,7 @@ map <silent><A-Left> :tabprevious<CR>
 
 if has("ruby")
 "    map \t :FuzzyFinderTextMate<CR>
-    map \b :FuzzyFinderBuffer<CR>
+    map \b :CtrlPBuffer<CR>
 endif
 
 let g:CommandTMatchWindowAtTop = 1
