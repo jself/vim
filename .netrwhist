@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/finder/.vim/bundle/echofunc/plugin'
+let g:netrw_dirhist_2='/home/finder/devel/cms_dev/src/storyville/medley/newsletters/sm'
+let g:netrw_dirhist_3='/home/finder/go/src/godb'
+let g:netrw_dirhist_4='/home/finder/.vim'
+let g:netrw_dirhist_5='/home/finder/.vim/syntax'
+let g:netrw_dirhist_6='/home/finder/go/src/godb'
+let g:netrw_dirhist_7='/home/finder/.vim/bundle/AutoClose'

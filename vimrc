@@ -13,7 +13,6 @@ map <silent><A-Left> :tabprevious<CR>
 
 if has("ruby")
 "    map \t :FuzzyFinderTextMate<CR>
-    map \b :CtrlPBuffer<CR>
 endif
 
 let g:CommandTMatchWindowAtTop = 1
@@ -27,6 +26,11 @@ map \cv :silent! IP Conque-Shell<CR>:ConqueTermVSplit bash<CR>
 map \ct :silent! IP Conque-Shell<CR>:ConqueTermTab bash<CR>
 map \p :silent! IP taglist<CR>:TlistToggle<CR>
 map gn :silent! IP buffernewwin<CR>:call OpenBufNewGvim()<CR>
+map \b :CtrlPBuffer<CR>
+"show the preview window with the current tag
+nmap \; <C-w>}
+exe 'inoremap ( <ESC><Left><C-w>}<Right>a' . maparg('(', 'i')
+
 
 filetype plugin indent on
 filetype on
@@ -51,7 +55,6 @@ vmap gb :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR
 let python_highlight_all = 1
 let python_highlight_space_errors = 1
 
-"colorscheme jellybeans
 set cursorline
 
 syntax on
@@ -144,7 +147,12 @@ endif
 
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
-colorscheme twilight2
+"Favorites
+"colorscheme twilight2
+"Installed
+"colorscheme jellybeans
+"colorscheme zmrok
+colorscheme ir_black
 set vb t_vb=
 call ipi#inspect()
 if v:version >= 730
@@ -157,3 +165,15 @@ autocmd GUIEnter * set visualbell t_vb=
 
 set autoindent
 set smarttab
+
+"ctags options
+let g:ctags_regenerate = 0
+
+call OnSyntaxChange#Install('Comment', '^Comment$', 0, 'i') 
+autocmd User SyntaxCommentEnterI silent! AcpLock 
+autocmd User SyntaxCommentLeaveI silent! AcpUnlock
+
+call OnSyntaxChange#Install('GoString', 'String$', 1, 'i') 
+autocmd User SyntaxGoStringEnterI silent! AcpLock
+autocmd User SyntaxGoStringLeaveI silent! AcpUnlock
+

@@ -88,3 +88,36 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/LustyJuggler"]
+	path = bundle/LustyJuggler
+	url = https://github.com/vim-scripts/LustyJuggler
+[submodule "bundle/vim-golang"]
+	path = bundle/vim-golang
+	url = https://github.com/jnwhiteh/vim-golang
+[submodule "bundle/AutoComplPop"]
+	path = bundle/AutoComplPop
+	url = https://github.com/vim-scripts/AutoComplPop
+[submodule "bundle/AutoClose"]
+	path = bundle/AutoClose
+	url = https://github.com/vim-scripts/AutoClose
+[submodule "bundle/AutoTag"]
+	path = bundle/AutoTag
+	url = https://github.com/vim-scripts/AutoTag.git
+[submodule "bundle/ctags--Johnson"]
+	path = bundle/ctags--Johnson
+	url = https://github.com/vim-scripts/ctags.vim--Johnson
+[submodule "bundle/OnSyntaxChange"]
+	path = bundle/OnSyntaxChange
+	url = https://github.com/vim-scripts/OnSyntaxChange
+[submodule "bundle/Tagbar"]
+	path = bundle/Tagbar
+	url = https://github.com/vim-scripts/Tagbar.git
+[submodule "bundle/ttagecho_vim"]
+	path = bundle/ttagecho_vim
+	url = https://github.com/tomtom/ttagecho_vim
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim
+[submodule "bundle/autoproto"]
+	path = bundle/autoproto
+	url = https://github.com/vim-scripts/autoproto.vim.git

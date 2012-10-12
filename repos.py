@@ -54,15 +54,31 @@ class ReposManager(Cmd):
             if repos not in bundles:
                 bundles.append(repos)
 
-        with open('repos.json', 'w') as f:
-            json.dump(struct, f)
 
         name = _mkname(repos)
         load(name, dirname + '/' + name, repos)
 
+        with open('repos.json', 'w') as f:
+            json.dump(struct, f)
+
 
     def do_update(self, arg):
         git('submodule foreach git submodule update'.split(' '))
+
+    def do_remove(self, arg):
+        arg = arg.split()
+        if len(arg) != 1:
+            print "Required argument is path"
+            sys.exit(-1)
+        path = arg[0]
+        rm('-R', '-f', path)
+        git('rm', path)
+        struct = json.load(open('repos.json'))
+        path = path.split('/')
+        for item in struct[path[0]]:
+            if _mkname(item) == path[1]:
+                index = struct[path[0]].index(item)
+                struct[path[0]].pop(index)
 
 if __name__ == '__main__':
     app = ReposManager()
