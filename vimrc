@@ -27,9 +27,20 @@ map \ct :silent! IP Conque-Shell<CR>:ConqueTermTab bash<CR>
 map \p :silent! IP taglist<CR>:TlistToggle<CR>
 map gn :silent! IP buffernewwin<CR>:call OpenBufNewGvim()<CR>
 map \b :CtrlPBuffer<CR>
+map \a :AutoCloseToggle<CR>
 "show the preview window with the current tag
 nmap \; <C-w>}
-exe 'inoremap ( <ESC><Left><C-w>}<Right>a' . maparg('(', 'i')
+fu! CheckTag()
+	try
+		stopinsert
+		normal h
+		silent! exe "ptag " . expand("<cword>")
+	finally
+		normal l
+		call feedkeys("a")
+	endtry
+endfunction
+exe 'inoremap ( <Esc>:call CheckTag()<CR>' . maparg('(', 'i')
 
 
 filetype plugin indent on
@@ -168,12 +179,3 @@ set smarttab
 
 "ctags options
 let g:ctags_regenerate = 0
-
-call OnSyntaxChange#Install('Comment', '^Comment$', 0, 'i') 
-autocmd User SyntaxCommentEnterI silent! AcpLock 
-autocmd User SyntaxCommentLeaveI silent! AcpUnlock
-
-call OnSyntaxChange#Install('GoString', 'String$', 1, 'i') 
-autocmd User SyntaxGoStringEnterI silent! AcpLock
-autocmd User SyntaxGoStringLeaveI silent! AcpUnlock
-

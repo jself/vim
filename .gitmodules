@@ -121,3 +121,6 @@
 [submodule "bundle/autoproto"]
 	path = bundle/autoproto
 	url = https://github.com/vim-scripts/autoproto.vim.git
+[submodule "bundle/AutoClose--Alves"]
+	path = bundle/AutoClose--Alves
+	url = git@github.com:finder/AutoClose--Alves.git

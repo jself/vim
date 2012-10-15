@@ -73,12 +73,16 @@ class ReposManager(Cmd):
         path = arg[0]
         rm('-R', '-f', path)
         git('rm', path)
-        struct = json.load(open('repos.json'))
+        with open('repos.json', 'r') as f:
+            struct = json.load(f)
         path = path.split('/')
         for item in struct[path[0]]:
             if _mkname(item) == path[1]:
                 index = struct[path[0]].index(item)
                 struct[path[0]].pop(index)
+
+        with open('repos.json', 'w') as f:
+            json.dump(struct, f)
 
 if __name__ == '__main__':
     app = ReposManager()
