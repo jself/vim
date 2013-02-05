@@ -124,3 +124,12 @@
 [submodule "bundle/AutoClose--Alves"]
 	path = bundle/AutoClose--Alves
 	url = git@github.com:finder/AutoClose--Alves.git
+[submodule "bundle/multiselect"]
+	path = bundle/multiselect
+	url = https://github.com/vim-scripts/multiselect
+[submodule "bundle/genutils"]
+	path = bundle/genutils
+	url = https://github.com/vim-scripts/genutils
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git

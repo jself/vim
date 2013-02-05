@@ -5,8 +5,8 @@ call pathogen#helptags()
 set tags+=$HOME/.vim/tags/python.ctags
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType go imap <C-Space> <C-x><C-o>
-autocmd FileType go set sw=4 
-autocmd FileType go set ts=4
+set sw=4 
+set ts=4
 inoremap <Nul> <C-x><C-o>
 map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprevious<CR>
@@ -28,6 +28,7 @@ map \p :silent! IP taglist<CR>:TlistToggle<CR>
 map gn :silent! IP buffernewwin<CR>:call OpenBufNewGvim()<CR>
 map \b :CtrlPBuffer<CR>
 map \a :AutoCloseToggle<CR>
+
 "show the preview window with the current tag
 nmap \; <C-w>}
 fu! CheckTag()
@@ -57,7 +58,7 @@ set number
 
 let g:fuzzy_ignore = '*.pyc;.git/*;.svn/*'
 
-map <F2> <ESC>ofrom ipdb import set_trace; set_trace()<ESC>:w<CR>
+map <F2> :normal ofrom ipdb import set_trace; set_trace()<ESC>:w<CR>
 map <F4> <ESC>:set hlsearch! hlsearch?<cr>
 map <F5> <ESC>:set incsearch! incsearch?<cr>
 map <F6> <ESC>:silent! IP gundo<CR>:GundoToggle<cr>
@@ -158,12 +159,10 @@ endif
 
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 
-"Favorites
 colorscheme twilight2
-"Installed
 "colorscheme jellybeans
 "colorscheme zmrok
-""colorscheme ir_black
+"colorscheme ir_black
 set vb t_vb=
 call ipi#inspect()
 if v:version >= 730
@@ -179,3 +178,4 @@ set smarttab
 
 "ctags options
 let g:ctags_regenerate = 0
+let g:AutoClosePairs = {'(': ')', '[': ']', '"': '"', "'": "'"}
