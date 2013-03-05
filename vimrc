@@ -11,52 +11,75 @@ set nocompatible               " be iMproved
  " My Bundles here:
  "
  " original repos on github
-Bundle 'mileszs/ack.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'msanders/snipmate.vim'
-Bundle 'sjl/gundo.vim.git'
-Bundle 'michaeljsmith/vim-indent-object'
-Bundle 'finder/rope-vim.git'
-Bundle 'kien/ctrlp.vim.git'
-Bundle 'mbbill/echofunc'
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'finder/AutoClose--Alves'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'goldfeld/vim-seek'
+Bundle 'mileszs/ack.vim' 
+"use
+Bundle 'tpope/vim-fugitive' 
+"use
+Bundle 'msanders/snipmate.vim' 
+"should use
+Bundle 'sjl/gundo.vim.git' 
+"should use
+Bundle 'michaeljsmith/vim-indent-object' 
+"?
+Bundle 'finder/rope-vim.git' 
+"use
+Bundle 'kien/ctrlp.vim.git' 
+"should use
+Bundle 'mbbill/echofunc' 
+"use
+Bundle 'jnwhiteh/vim-golang' 
+"use
+Bundle 'finder/AutoClose--Alves' 
+"use
+Bundle 'tpope/vim-fugitive' 
+"use
+Bundle 'Lokaltog/vim-easymotion' 
+"use
+Bundle 'airblade/vim-gitgutter' 
+"testing
+Bundle 'goldfeld/vim-seek' 
+"testing
 
  " vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'multiselect'
-Bundle 'genutils'
-Bundle 'Conque-Shell'
-Bundle 'CSApprox'
-Bundle 'FindFile'
-Bundle 'gitdiff.vim'
-Bundle 'grep.vim'
+Bundle 'L9' 
+"prereq
+Bundle 'FuzzyFinder' 
+"use
+Bundle 'genutils' 
+"prereq
+Bundle 'CSApprox' 
+"use
+Bundle 'grep.vim' 
+"testing
 Bundle 'LargeFile'
-Bundle 'The-NERD-tree'
-Bundle 'PySmell'
-Bundle 'snippetsEmu'
-Bundle 'PySmell'
-Bundle 'snippets.vim'
-Bundle 'surround.vim'
-Bundle 'taglist.vim'
-Bundle 'vimwiki'
-Bundle 'ZenCoding.vim'
-Bundle 'gitv'
-Bundle 'pylint.vim'
-Bundle 'CSApprox'
-Bundle 'argtextobj.vim'
-Bundle 'LustyJuggler'
-Bundle 'YankRing.vim'
-Bundle 'AutoComplPop'
-Bundle 'AutoTag'
+Bundle 'The-NERD-tree' 
+"use
+Bundle 'PySmell' 
+"use
+Bundle 'snippets.vim' 
+"use
+Bundle 'surround.vim' 
+"use
+Bundle 'taglist.vim' 
+"use
+Bundle 'ZenCoding.vim' 
+"should use
+Bundle 'gitv' 
+"sometimes use
+Bundle 'argtextobj.vim' 
+"should use
+Bundle 'LustyJuggler' 
+"should use
+Bundle 'YankRing.vim' 
+"use
+Bundle 'AutoComplPop' 
+"use
+Bundle 'AutoTag' 
+"use
 
  " non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'git://git.wincent.com/command-t.git' 
+"use
  " ...
 
  filetype plugin indent on     " required!
@@ -232,7 +255,6 @@ colorscheme twilight2
 "colorscheme zmrok
 "colorscheme ir_black
 set vb t_vb=
-call ipi#inspect()
 if v:version >= 730
     set cm=blowfish
 endif
@@ -248,3 +270,4 @@ set smarttab
 let g:ctags_regenerate = 0
 let g:AutoClosePairs = {'(': ')', '[': ']', '"': '"', "'": "'"}
 
+let g:seek_enable_jumps_in_diff = 1 
