@@ -1,6 +1,74 @@
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set nocompatible               " be iMproved
+ filetype off                   " required!
+
+ set rtp+=~/.vim/bundle/vundle/
+ call vundle#rc()
+
+ " let Vundle manage Vundle
+ " required! 
+ Bundle 'gmarik/vundle'
+
+ " My Bundles here:
+ "
+ " original repos on github
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'msanders/snipmate.vim'
+Bundle 'sjl/gundo.vim.git'
+Bundle 'michaeljsmith/vim-indent-object'
+Bundle 'finder/rope-vim.git'
+Bundle 'kien/ctrlp.vim.git'
+Bundle 'mbbill/echofunc'
+Bundle 'jnwhiteh/vim-golang'
+Bundle 'finder/AutoClose--Alves'
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'goldfeld/vim-seek'
+
+ " vim-scripts repos
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'multiselect'
+Bundle 'genutils'
+Bundle 'Conque-Shell'
+Bundle 'CSApprox'
+Bundle 'FindFile'
+Bundle 'gitdiff.vim'
+Bundle 'grep.vim'
+Bundle 'LargeFile'
+Bundle 'The-NERD-tree'
+Bundle 'PySmell'
+Bundle 'snippetsEmu'
+Bundle 'PySmell'
+Bundle 'snippets.vim'
+Bundle 'surround.vim'
+Bundle 'taglist.vim'
+Bundle 'vimwiki'
+Bundle 'ZenCoding.vim'
+Bundle 'gitv'
+Bundle 'pylint.vim'
+Bundle 'CSApprox'
+Bundle 'argtextobj.vim'
+Bundle 'LustyJuggler'
+Bundle 'YankRing.vim'
+Bundle 'AutoComplPop'
+Bundle 'AutoTag'
+
+ " non github repos
+Bundle 'git://git.wincent.com/command-t.git'
+ " ...
+
+ filetype plugin indent on     " required!
+ "
+ " Brief help
+ " :BundleList          - list configured bundles
+ " :BundleInstall(!)    - install(update) bundles
+ " :BundleSearch(!) foo - search(or refresh cache first) for foo
+ " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+ "
+ " see :h vundle for more details or wiki for FAQ
+ " NOTE: comments after Bundle command are not allowed..
 
 set tags+=$HOME/.vim/tags/python.ctags
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -179,3 +247,4 @@ set smarttab
 "ctags options
 let g:ctags_regenerate = 0
 let g:AutoClosePairs = {'(': ')', '[': ']', '"': '"', "'": "'"}
+
