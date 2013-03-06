@@ -12,9 +12,7 @@ set nocompatible               " be iMproved
  "
  " original repos on github
 Bundle 'mileszs/ack.vim' 
-"use
 Bundle 'tpope/vim-fugitive' 
-"use
 Bundle 'msanders/snipmate.vim' 
 "should use
 Bundle 'sjl/gundo.vim.git' 
@@ -22,46 +20,35 @@ Bundle 'sjl/gundo.vim.git'
 Bundle 'michaeljsmith/vim-indent-object' 
 "?
 Bundle 'finder/rope-vim.git' 
-"use
 Bundle 'kien/ctrlp.vim.git' 
 "should use
 Bundle 'mbbill/echofunc' 
-"use
 Bundle 'jnwhiteh/vim-golang' 
-"use
 Bundle 'finder/AutoClose--Alves' 
-"use
 Bundle 'tpope/vim-fugitive' 
-"use
 Bundle 'Lokaltog/vim-easymotion' 
-"use
 Bundle 'airblade/vim-gitgutter' 
 "testing
 Bundle 'goldfeld/vim-seek' 
+"testing
+Bundle "davidhalter/jedi-vim"
 "testing
 
  " vim-scripts repos
 Bundle 'L9' 
 "prereq
 Bundle 'FuzzyFinder' 
-"use
 Bundle 'genutils' 
 "prereq
 Bundle 'CSApprox' 
-"use
 Bundle 'grep.vim' 
 "testing
 Bundle 'LargeFile'
 Bundle 'The-NERD-tree' 
-"use
 Bundle 'PySmell' 
-"use
 Bundle 'snippets.vim' 
-"use
 Bundle 'surround.vim' 
-"use
 Bundle 'taglist.vim' 
-"use
 Bundle 'ZenCoding.vim' 
 "should use
 Bundle 'gitv' 
@@ -71,15 +58,12 @@ Bundle 'argtextobj.vim'
 Bundle 'LustyJuggler' 
 "should use
 Bundle 'YankRing.vim' 
-"use
 Bundle 'AutoComplPop' 
-"use
 Bundle 'AutoTag' 
-"use
+Bundle 'guicolorscheme.vim'
 
  " non github repos
 Bundle 'git://git.wincent.com/command-t.git' 
-"use
  " ...
 
  filetype plugin indent on     " required!
@@ -94,7 +78,7 @@ Bundle 'git://git.wincent.com/command-t.git'
  " NOTE: comments after Bundle command are not allowed..
 
 set tags+=$HOME/.vim/tags/python.ctags
-autocmd FileType python set omnifunc=pythoncomplete#Complete
+" autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType go imap <C-Space> <C-x><C-o>
 set sw=4 
 set ts=4
@@ -111,6 +95,8 @@ let g:CommandTAcceptSelectionTabMap = "<C-]>"
 
 map \n :silent! IP nerdtree<CR>:do NERDTree VimEnter<CR>:NERDTreeToggle<CR>
 map \y :YRShow<CR>
+let g:yankring_replace_n_pkey = '<S-p>'
+let g:yankring_replace_n_nkey = '<S-n>'
 map \g :silent! IP gundo<CR>:GundoToggle<CR>
 map \ch :silent! IP Conque-Shell<CR>:ConqueTermSplit bash<CR>
 map \cv :silent! IP Conque-Shell<CR>:ConqueTermVSplit bash<CR>
@@ -180,7 +166,7 @@ function! TabWrapperRope()
       return "\<C-R>=RopeCodeAssistInsertMode()\<CR>"
   endif
 endfunction
-autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
+" autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
   
 map <C-S> <ESC><S-v>:s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
 nmap <silent> <Leader>x, :silent! %s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
@@ -248,9 +234,9 @@ if $WORKON=="work"
     cd $WORKONDIR
 endif
 
-let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+let t_Co = 256
 
-colorscheme twilight2
+"colorscheme twilight2
 "colorscheme jellybeans
 "colorscheme zmrok
 "colorscheme ir_black
@@ -271,3 +257,10 @@ let g:ctags_regenerate = 0
 let g:AutoClosePairs = {'(': ')', '[': ']', '"': '"', "'": "'"}
 
 let g:seek_enable_jumps_in_diff = 1 
+let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
+if has("gui_running")
+	colorscheme twilight2
+else
+	colorscheme twilight2-console
+endif
+let g:ctrlp_working_path_mode = ''

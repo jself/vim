@@ -2,3 +2,4 @@ cmd2
 pbs
 rope
 ropevim
+-e git://github.com/davidhalter/jedi.git#egg=jedi

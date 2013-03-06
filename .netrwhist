@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/finder/devel/cms_dev/src/medley-templates/templates/common/mobile'
 let g:netrw_dirhist_2='/home/finder/devel/cms_dev/src/medley-templates/templates/common'
 let g:netrw_dirhist_3='/home/finder/devel/cms_dev/src/medley-templates/templates/common/web'
 let g:netrw_dirhist_4='/home/finder/devel/cms_dev/src/medley-templates/templates/common/web/includes'
 let g:netrw_dirhist_5='/home/finder/devel/cms_dev/src/medley-templates/templates/common/web/includes/ads'
+let g:netrw_dirhist_6='/home/finder/devel/cms_dev/src/storyville/medley/weather/tests'
