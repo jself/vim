@@ -14,26 +14,29 @@ set nocompatible               " be iMproved
 Bundle 'mileszs/ack.vim' 
 Bundle 'tpope/vim-fugitive' 
 Bundle 'msanders/snipmate.vim' 
-"should use
+Bundle 'Raimondi/delimitMate.git'
+Bundle 'amiorin/vim-fasd.git'
+Bundle 'amiorin/ctrlp-z'
 Bundle 'sjl/gundo.vim.git' 
-"should use
 Bundle 'michaeljsmith/vim-indent-object' 
 "?
+Bundle 'scrooloose/nerdcommenter'
 Bundle 'finder/rope-vim.git' 
 Bundle 'kien/ctrlp.vim.git' 
 "should use
 Bundle 'mbbill/echofunc' 
 Bundle 'jnwhiteh/vim-golang' 
-Bundle 'finder/AutoClose--Alves' 
+"Bundle 'finder/AutoClose--Alves' 
 Bundle 'tpope/vim-fugitive' 
 Bundle 'Lokaltog/vim-easymotion' 
 Bundle 'airblade/vim-gitgutter' 
 "testing
 Bundle 'goldfeld/vim-seek' 
-"testing
-Bundle "davidhalter/jedi-vim"
+let g:seek_enable_jumps = 1
 "testing
 
+Bundle 'davidhalter/jedi-vim'
+"testing
  " vim-scripts repos
 Bundle 'L9' 
 "prereq
@@ -58,7 +61,7 @@ Bundle 'argtextobj.vim'
 Bundle 'LustyJuggler' 
 "should use
 Bundle 'YankRing.vim' 
-Bundle 'AutoComplPop' 
+"Bundle 'AutoComplPop' 
 Bundle 'AutoTag' 
 Bundle 'guicolorscheme.vim'
 
@@ -78,7 +81,7 @@ Bundle 'git://git.wincent.com/command-t.git'
  " NOTE: comments after Bundle command are not allowed..
 
 set tags+=$HOME/.vim/tags/python.ctags
-" autocmd FileType python set omnifunc=pythoncomplete#Complete
+"autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType go imap <C-Space> <C-x><C-o>
 set sw=4 
 set ts=4
@@ -104,7 +107,14 @@ map \ct :silent! IP Conque-Shell<CR>:ConqueTermTab bash<CR>
 map \p :silent! IP taglist<CR>:TlistToggle<CR>
 map gn :silent! IP buffernewwin<CR>:call OpenBufNewGvim()<CR>
 map \b :CtrlPBuffer<CR>
-map \a :AutoCloseToggle<CR>
+
+"fasd integration with nerdtree nad ctrlp
+nnoremap \z :CtrlPZ<Cr>
+nnoremap \f :CtrlPF<Cr>
+
+"map \a :AutoCloseToggle<CR>
+nmap <leader>l :set list!<CR>
+"set listchars=tab:▸\ ,eol:¬
 
 "show the preview window with the current tag
 nmap \; <C-w>}
@@ -167,6 +177,9 @@ function! TabWrapperRope()
   endif
 endfunction
 " autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
+"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#autocompletion_command = "<C-Space>"
   
 map <C-S> <ESC><S-v>:s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
 nmap <silent> <Leader>x, :silent! %s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
@@ -254,7 +267,7 @@ set smarttab
 
 "ctags options
 let g:ctags_regenerate = 0
-let g:AutoClosePairs = {'(': ')', '[': ']', '"': '"', "'": "'"}
+"let g:AutoClosePairs = {'(': ')', '[': ']', '"': '"', "'": "'"}
 
 let g:seek_enable_jumps_in_diff = 1 
 let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
@@ -264,3 +277,4 @@ else
 	colorscheme twilight2-console
 endif
 let g:ctrlp_working_path_mode = ''
+
