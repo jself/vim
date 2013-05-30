@@ -14,15 +14,42 @@ set nocompatible               " be iMproved
 Bundle 'mileszs/ack.vim' 
 Bundle 'tpope/vim-fugitive' 
 Bundle 'msanders/snipmate.vim' 
-Bundle 'Raimondi/delimitMate.git'
+"Bundle 'Raimondi/delimitMate.git'
+"Don't think I like autoclosing
 Bundle 'amiorin/vim-fasd.git'
 Bundle 'amiorin/ctrlp-z'
+
 Bundle 'sjl/gundo.vim.git' 
+map \g :silent! IP gundo<CR>:GundoToggle<CR>
+
 Bundle 'michaeljsmith/vim-indent-object' 
+Bundle 'scrooloose/syntastic'
 "?
+
+Bundle 'Valloric/YouCompleteMe'
+
 Bundle 'scrooloose/nerdcommenter'
+
 Bundle 'finder/rope-vim.git' 
+let ropevim_vim_completion=1
+let ropevim_extended_complete=1
+function! TabWrapperRope()
+  if strpart(getline('.'), 0, col('.')-1) =~ '^\s*$'
+      return "\<Tab>"
+  else
+      return "\<C-R>=RopeCodeAssistInsertMode()\<CR>"
+  endif
+endfunction
+" autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
+
 Bundle 'kien/ctrlp.vim.git' 
+let g:ctrlp_extensions = ['tag']
+map \b :CtrlPBuffer<CR>
+map \t :CtrlPTag<CR>
+"fasd integration with nerdtree and ctrlp
+nnoremap \z :CtrlPZ<Cr>
+nnoremap \f :CtrlPF<Cr>
+
 "should use
 Bundle 'mbbill/echofunc' 
 Bundle 'jnwhiteh/vim-golang' 
@@ -36,22 +63,37 @@ let g:seek_enable_jumps = 1
 "testing
 
 Bundle 'davidhalter/jedi-vim'
-"testing
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#autocompletion_command = "<C-Space>"
+
  " vim-scripts repos
 Bundle 'L9' 
 "prereq
-Bundle 'FuzzyFinder' 
 Bundle 'genutils' 
 "prereq
 Bundle 'CSApprox' 
 Bundle 'grep.vim' 
 "testing
 Bundle 'LargeFile'
+
 Bundle 'The-NERD-tree' 
+map \n :silent! IP nerdtree<CR>:do NERDTree VimEnter<CR>:NERDTreeToggle<CR>
+
 Bundle 'PySmell' 
 Bundle 'snippets.vim' 
 Bundle 'surround.vim' 
+
 Bundle 'taglist.vim' 
+map \p :silent! IP taglist<CR>:TlistToggle<CR>
+let Tlist_Auto_Highlight_Tag = 1
+let Tlist_Use_Right_Window = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Show_One_File = 1
+let Tlist_Enable_Fold_Column=0
+let Tlist_GainFocus_On_ToggleOpen=1
+let Tlist_Close_On_Select=1
+let Tlist_Sort_Type = "name"
+
 Bundle 'ZenCoding.vim' 
 "should use
 Bundle 'gitv' 
@@ -60,57 +102,39 @@ Bundle 'argtextobj.vim'
 "should use
 Bundle 'LustyJuggler' 
 "should use
+"
 Bundle 'YankRing.vim' 
+map \y :YRShow<CR>
+let g:yankring_replace_n_pkey = '<S-p>'
+let g:yankring_replace_n_nkey = '<S-n>'
+
 "Bundle 'AutoComplPop' 
 Bundle 'AutoTag' 
 Bundle 'guicolorscheme.vim'
 
- " non github repos
-Bundle 'git://git.wincent.com/command-t.git' 
- " ...
+" non github repos
 
- filetype plugin indent on     " required!
- "
- " Brief help
- " :BundleList          - list configured bundles
- " :BundleInstall(!)    - install(update) bundles
- " :BundleSearch(!) foo - search(or refresh cache first) for foo
- " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
- "
- " see :h vundle for more details or wiki for FAQ
- " NOTE: comments after Bundle command are not allowed..
+filetype plugin indent on     " required!
+"
+" Brief help
+" :BundleList          - list configured bundles
+" :BundleInstall(!)    - install(update) bundles
+" :BundleSearch(!) foo - search(or refresh cache first) for foo
+" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+"
+" see :h vundle for more details or wiki for FAQ
+" NOTE: comments after Bundle command are not allowed..
 
 set tags+=$HOME/.vim/tags/python.ctags
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType go imap <C-Space> <C-x><C-o>
+autocmd FileType js set expandtab
+autocmd FileType html set expandtab
 set sw=4 
 set ts=4
 inoremap <Nul> <C-x><C-o>
 map <silent><A-Right> :tabnext<CR>
 map <silent><A-Left> :tabprevious<CR>
-
-if has("ruby")
-"    map \t :FuzzyFinderTextMate<CR>
-endif
-
-let g:CommandTMatchWindowAtTop = 1
-let g:CommandTAcceptSelectionTabMap = "<C-]>"
-
-map \n :silent! IP nerdtree<CR>:do NERDTree VimEnter<CR>:NERDTreeToggle<CR>
-map \y :YRShow<CR>
-let g:yankring_replace_n_pkey = '<S-p>'
-let g:yankring_replace_n_nkey = '<S-n>'
-map \g :silent! IP gundo<CR>:GundoToggle<CR>
-map \ch :silent! IP Conque-Shell<CR>:ConqueTermSplit bash<CR>
-map \cv :silent! IP Conque-Shell<CR>:ConqueTermVSplit bash<CR>
-map \ct :silent! IP Conque-Shell<CR>:ConqueTermTab bash<CR>
-map \p :silent! IP taglist<CR>:TlistToggle<CR>
-map gn :silent! IP buffernewwin<CR>:call OpenBufNewGvim()<CR>
-map \b :CtrlPBuffer<CR>
-
-"fasd integration with nerdtree nad ctrlp
-nnoremap \z :CtrlPZ<Cr>
-nnoremap \f :CtrlPF<Cr>
 
 "map \a :AutoCloseToggle<CR>
 nmap <leader>l :set list!<CR>
@@ -118,18 +142,6 @@ nmap <leader>l :set list!<CR>
 
 "show the preview window with the current tag
 nmap \; <C-w>}
-fu! CheckTag()
-	try
-		stopinsert
-		normal h
-		silent! exe "ptag " . expand("<cword>")
-	finally
-		normal l
-		call feedkeys("a")
-	endtry
-endfunction
-exe 'inoremap ( <Esc>:call CheckTag()<CR>' . maparg('(', 'i')
-
 
 filetype plugin indent on
 filetype on
@@ -148,7 +160,6 @@ let g:fuzzy_ignore = '*.pyc;.git/*;.svn/*'
 map <F2> :normal ofrom ipdb import set_trace; set_trace()<ESC>:w<CR>
 map <F4> <ESC>:set hlsearch! hlsearch?<cr>
 map <F5> <ESC>:set incsearch! incsearch?<cr>
-map <F6> <ESC>:silent! IP gundo<CR>:GundoToggle<cr>
 
 vmap gb :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
 let python_highlight_all = 1
@@ -157,34 +168,7 @@ let python_highlight_space_errors = 1
 set cursorline
 
 syntax on
-let Tlist_Auto_Highlight_Tag = 1
-let Tlist_Use_Right_Window = 1
-let Tlist_Exit_OnlyWindow = 1
-let Tlist_Show_One_File = 1
-let Tlist_Enable_Fold_Column=0
-let Tlist_GainFocus_On_ToggleOpen=1
-let Tlist_Close_On_Select=1
-let Tlist_Sort_Type = "name"
-let ropevim_vim_completion=1
-let ropevim_extended_complete=1
-
-
-function! TabWrapperRope()
-  if strpart(getline('.'), 0, col('.')-1) =~ '^\s*$'
-      return "\<Tab>"
-  else
-      return "\<C-R>=RopeCodeAssistInsertMode()\<CR>"
-  endif
-endfunction
-" autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
-"
-let g:jedi#rename_command = "<leader>r"
-let g:jedi#autocompletion_command = "<C-Space>"
   
-map <C-S> <ESC><S-v>:s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
-nmap <silent> <Leader>x, :silent! %s/\(\(^\([^"']*\(["'][^"']*["']\)\)*[^"']*\)\@<=\)\+,\ze\S/& /g<CR>
-map <A-t> :TaskList<CR>
-
 fun! SPLITAG() range
   let oldfile=expand("%:p")
   if &modified
@@ -211,14 +195,6 @@ set guifont=Inconsolata\ Medium\ 12
 set mouse=ra
 set incsearch
 
-
-" Vimwiki MAPPINGS {{{
-map <silent><unique> <Leader>ww <Plug>VimwikiIndex
-map <silent><unique> <Leader>wt <Plug>VimwikiTabIndex
-map <silent><unique> <Leader>ws <Plug>VimwikiUISelect
-map <silent><unique> <Leader>w<Leader>w <Plug>VimwikiMakeDiaryNote
-map <silent><unique> <Leader>w<Leader>t <Plug>VimwikiTabMakeDiaryNote
-"}}}
 
 set t_Co=256
 
