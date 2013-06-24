@@ -1,0 +1,28 @@
+snippet jquery "jquery cdn"
+<script src="http://code.jquery.com/jquery.js"></script>
+endsnippet
+
+snippet bootstrap "bootstrap cdn"
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+endsnippet
+
+snippet div "div class"
+<div class="${1:class}">
+$2
+</div>
+endsnippet
+
+snippet block "django block"
+{% block ${1:name} %}
+$2
+{% endblock %}
+endsnippet
+
+snippet extends "django extends"
+{% extends "${1:name}.html" %}
+endsnippet
+
+snippet csrf "django csrf"
+{% csrf_token %}
+endsnippet

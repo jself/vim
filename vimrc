@@ -13,7 +13,7 @@ set nocompatible               " be iMproved
  " original repos on github
 Bundle 'mileszs/ack.vim' 
 Bundle 'tpope/vim-fugitive' 
-Bundle 'msanders/snipmate.vim' 
+
 "Bundle 'Raimondi/delimitMate.git'
 "Don't think I like autoclosing
 Bundle 'amiorin/vim-fasd.git'
@@ -27,19 +27,21 @@ Bundle 'scrooloose/syntastic'
 "?
 
 Bundle 'Valloric/YouCompleteMe'
+"" YouCompleteMe
+let g:ycm_key_list_previous_completion=['<Up>']
 
 Bundle 'scrooloose/nerdcommenter'
 
-Bundle 'finder/rope-vim.git' 
-let ropevim_vim_completion=1
-let ropevim_extended_complete=1
-function! TabWrapperRope()
-  if strpart(getline('.'), 0, col('.')-1) =~ '^\s*$'
-      return "\<Tab>"
-  else
-      return "\<C-R>=RopeCodeAssistInsertMode()\<CR>"
-  endif
-endfunction
+"Bundle 'finder/rope-vim.git' 
+"let ropevim_vim_completion=1
+"let ropevim_extended_complete=1
+"function! TabWrapperRope()
+"  if strpart(getline('.'), 0, col('.')-1) =~ '^\s*$'
+"      return "\<Tab>"
+"  else
+"      return "\<C-R>=RopeCodeAssistInsertMode()\<CR>"
+"  endif
+"endfunction
 " autocmd FileType python imap <C-Space> <C-R>=TabWrapperRope()<CR>
 
 Bundle 'kien/ctrlp.vim.git' 
@@ -65,7 +67,15 @@ let g:seek_enable_jumps = 1
 Bundle 'davidhalter/jedi-vim'
 let g:jedi#rename_command = "<leader>r"
 let g:jedi#autocompletion_command = "<C-Space>"
+let g:jedi#popup_select_first = 0
+let g:jedi#popup_on_dot = 0
 
+Bundle 'SirVer/ultisnips'
+"" Ultisnips
+let g:UltiSnipsExpandTrigger="<leader><tab>"
+let g:UltiSnipsListSnippets="<c-tab>"
+
+let g:UltiSnipsEditSplit = "horizontal"
  " vim-scripts repos
 Bundle 'L9' 
 "prereq
@@ -114,8 +124,6 @@ Bundle 'guicolorscheme.vim'
 
 " non github repos
 
-filetype plugin indent on     " required!
-"
 " Brief help
 " :BundleList          - list configured bundles
 " :BundleInstall(!)    - install(update) bundles
@@ -198,7 +206,7 @@ set incsearch
 
 set t_Co=256
 
-command! -nargs=* -complete=file Ctags !ctags -R --fields=+lS .
+"command! -nargs=* -complete=file Ctags !ctags -R --fields=+lS .
 
 " Edit relative to current file
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
