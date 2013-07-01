@@ -76,6 +76,14 @@ let g:UltiSnipsExpandTrigger="<leader><tab>"
 let g:UltiSnipsListSnippets="<c-tab>"
 
 let g:UltiSnipsEditSplit = "horizontal"
+
+" vim-notes
+Bundle 'bogado/file-line'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-notes'
+Bundle 'utl.vim'
+nnoremap cp :let @" = expand("%:p") . ":" . line(".")<CR>
+
  " vim-scripts repos
 Bundle 'L9' 
 "prereq
