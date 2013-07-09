@@ -301,3 +301,7 @@ autocmd filetype yaml setlocal tabstop=2
 autocmd filetype yaml setlocal textwidth=0
 autocmd filetype yaml setlocal indentexpr=GetYamlIndent()
 augroup END
+
+set backupdir=~/backup
+set directory=~/backup
+set backup
