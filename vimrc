@@ -84,6 +84,9 @@ Bundle 'xolox/vim-notes'
 Bundle 'utl.vim'
 nnoremap cp :let @" = expand("%:p") . ":" . line(".")<CR>
 
+Bundle 'alfredodeza/pytest.vim'
+Bundle 'avakhov/vim-yaml'
+
  " vim-scripts repos
 Bundle 'L9' 
 "prereq
@@ -270,3 +273,31 @@ else
 endif
 let g:ctrlp_working_path_mode = ''
 
+"Retraining
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+vnoremap <up> <nop>
+vnoremap <down> <nop>
+vnoremap <left> <nop>
+vnoremap <right> <nop>
+inoremap jk <esc>
+inoremap kj <esc>
+noremap <PageDown> <nop>
+noremap <PageUp> <nop>
+
+" YAML stuff
+
+augroup yamlfiles
+autocmd filetype yaml setlocal autoindent
+autocmd filetype yaml setlocal expandtab
+autocmd filetype yaml setlocal noignorecase
+autocmd filetype yaml setlocal shiftround
+autocmd filetype yaml setlocal shiftwidth=2
+autocmd filetype yaml setlocal smartindent
+autocmd filetype yaml setlocal softtabstop=2
+autocmd filetype yaml setlocal tabstop=2
+autocmd filetype yaml setlocal textwidth=0
+autocmd filetype yaml setlocal indentexpr=GetYamlIndent()
+augroup END
