@@ -24,6 +24,16 @@ map \g :silent! IP gundo<CR>:GundoToggle<CR>
 
 Bundle 'michaeljsmith/vim-indent-object' 
 Bundle 'scrooloose/syntastic'
+Bundle 'mattn/calendar-vim'
+Bundle 'vimwiki/vimwiki'
+
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/main', 'path_html': '~/Dropbox/vimwiki/main_html'},
+	\ {'path': '~/Dropbox/vimwiki/work', 'path_html': '~/Dropbox/vimwiki/work_html'}]
+let g:vimwiki_use_mouse = 1
+
+autocmd filetype vimwiki setlocal wrap
+autocmd filetype vimwiki setlocal textwidth=100
+autocmd filetype vimwiki setlocal shiftwidth=2
 "?
 
 Bundle 'Valloric/YouCompleteMe'
@@ -56,7 +66,6 @@ nnoremap \f :CtrlPF<Cr>
 Bundle 'mbbill/echofunc' 
 Bundle 'jnwhiteh/vim-golang' 
 "Bundle 'finder/AutoClose--Alves' 
-Bundle 'tpope/vim-fugitive' 
 Bundle 'Lokaltog/vim-easymotion' 
 Bundle 'airblade/vim-gitgutter' 
 "testing
@@ -74,6 +83,8 @@ Bundle 'SirVer/ultisnips'
 "" Ultisnips
 let g:UltiSnipsExpandTrigger="<leader><tab>"
 let g:UltiSnipsListSnippets="<c-tab>"
+let g:UltiSnipsJumpForwardTrigger="<leader><tab>"
+let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 
 let g:UltiSnipsEditSplit = "horizontal"
 
@@ -88,7 +99,32 @@ Bundle 'alfredodeza/pytest.vim'
 Bundle 'avakhov/vim-yaml'
 
  " vim-scripts repos
+Bundle 'buftabs'
+"Bundle 'minibufexpl.vim'
+set laststatus=2
+let g:buftabs_in_statusline=1
+let g:buftabs_only_basename=1
+set hidden
+map <C-j> :bnext<CR>
+map <C-k> :bprev<CR>
+map <C-h> :bnext<CR>
+map <C-l> :bprev<CR>
+function! GoBuf(count)
+	if count == 0
+		:bnext
+	else
+		:exe ":buffer ".v:count
+	endif
+endfunction
+nmap gb :<C-U>call GoBuf(v:count)<CR>
+map gB :bprev<CR>
+map gh :set buflisted!<CR>
+au BufLeave * let b:winview = winsaveview()
+au BufEnter * if(exists('b:winview')) | call winrestview(b:winview) | endif
+
+
 Bundle 'L9' 
+Bundle 'bufmru.vim'
 "prereq
 Bundle 'genutils' 
 "prereq
@@ -305,3 +341,25 @@ augroup END
 set backupdir=~/backup
 set directory=~/backup
 set backup
+
+" Save session for current directory
+fu! SaveSess()                                                                                                                                                                                                                                                                                                              
+    execute 'mksession! ' . getcwd() . '/.session.vim'                                                                                                                                                                                                                                                                      
+endfunction                                                                                                                                                                                                                                                                                                                 
+
+fu! RestoreSess()                                                                                                                                                                                                                                                                                                           
+if filereadable(getcwd() . '/.session.vim')                                                                                                                                                                                                                                                                                 
+    execute 'so ' . getcwd() . '/.session.vim'                                                                                                                                                                                                                                                                              
+    if bufexists(1)                                                                                                                                                                                                                                                                                                         
+        for l in range(1, bufnr('$'))                                                                                                                                                                                                                                                                                       
+            if bufwinnr(l) == -1                                                                                                                                                                                                                                                                                            
+                exec 'sbuffer ' . l                                                                                                                                                                                                                                                                                         
+            endif                                                                                                                                                                                                                                                                                                           
+        endfor                                                                                                                                                                                                                                                                                                              
+    endif                                                                                                                                                                                                                                                                                                                   
+endif                                                                                                                                                                                                                                                                                                                       
+syntax on                                                                                                                                                                                                                                                                                                                   
+endfunction                                                                                                                                                                                                                                                                                                                 
+
+autocmd VimLeave * call SaveSess()                                                                                                                                                                                                                                                                                          
+autocmd VimEnter * call RestoreSess()
