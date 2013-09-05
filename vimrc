@@ -11,6 +11,9 @@ set nocompatible               " be iMproved
  " My Bundles here:
  "
  " original repos on github
+Bundle 'aaronbieber/quicktask'
+Bundle 'ervandew/supertab'
+Bundle 'mattn/emmet-vim'
 Bundle 'mileszs/ack.vim' 
 Bundle 'tpope/vim-fugitive' 
 
@@ -73,7 +76,7 @@ Bundle 'goldfeld/vim-seek'
 let g:seek_enable_jumps = 1
 "testing
 
-Bundle 'davidhalter/jedi-vim'
+"Bundle 'davidhalter/jedi-vim'
 let g:jedi#rename_command = "<leader>r"
 let g:jedi#autocompletion_command = "<C-Space>"
 let g:jedi#popup_select_first = 0
@@ -98,6 +101,11 @@ nnoremap cp :let @" = expand("%:p") . ":" . line(".")<CR>
 Bundle 'alfredodeza/pytest.vim'
 Bundle 'avakhov/vim-yaml'
 
+Bundle 'sandeepcr529/Buffet.vim'
+map <F3> :Bufferlist<CR>
+map \v :Bufferlist<CR>
+
+Bundle 'jeetsukumaran/vim-buffersaurus'
  " vim-scripts repos
 Bundle 'buftabs'
 "Bundle 'minibufexpl.vim'
@@ -151,8 +159,6 @@ let Tlist_GainFocus_On_ToggleOpen=1
 let Tlist_Close_On_Select=1
 let Tlist_Sort_Type = "name"
 
-Bundle 'ZenCoding.vim' 
-"should use
 Bundle 'gitv' 
 "sometimes use
 Bundle 'argtextobj.vim' 
@@ -162,8 +168,9 @@ Bundle 'LustyJuggler'
 "
 Bundle 'YankRing.vim' 
 map \y :YRShow<CR>
-let g:yankring_replace_n_pkey = '<S-p>'
-let g:yankring_replace_n_nkey = '<S-n>'
+let g:yankring_replace_n_pkey = '\up'
+let g:yankring_replace_n_nkey = '\ur'
+let g:yankring_record_insert = 1
 
 "Bundle 'AutoComplPop' 
 Bundle 'AutoTag' 
@@ -362,4 +369,6 @@ syntax on
 endfunction                                                                                                                                                                                                                                                                                                                 
 
 autocmd VimLeave * call SaveSess()                                                                                                                                                                                                                                                                                          
-autocmd VimEnter * call RestoreSess()
+"autocmd VimEnter * call RestoreSess()
+vnoremap <C-X> <Esc>`.``gvP``P
+map <F3> :r!date "+\%Y-\%m-\%d \%H:\%M:\%S"<CR>

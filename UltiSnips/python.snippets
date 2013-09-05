@@ -1,0 +1,57 @@
+snippet super
+r = super(${1:Class}, self).${2:funcname}(${3:extraargs, }${4:*args, **kwargs})
+endsnippet
+
+snippet def "Overwridden function"
+def ${1:funcname}(self, ${2:extraargs, }*args, **kwargs):
+	r = super(${3:Class}, self).$1(${4:extraargs, }*args, **kwargs)
+	$5
+endsnippet
+
+snippet args
+*args, **kwargs
+endsnippet
+
+snippet reverse
+from django.core.urlresolvers import reverse
+endsnippet
+
+snippet render
+from django.shortcuts import render
+endsnippet
+
+snippet forms
+from django import forms
+endsnippet
+
+snippet testclient
+from django.test.client import Client
+endsnippet
+
+snippet testcase
+from django.test import TestCase
+endsnippet
+
+snippet _ "ugettext_lazy"
+from django.utils.translation import ugettext_lazy as _
+endsnippet
+
+snippet get_object_or_404
+from django.shortcuts import get_object_or_404
+endsnippet
+
+snippet HttpResponse
+from django.http import HttpResponse
+endsnippet
+
+snippet strip_tags "django strip tags"
+from django.utils.html import strip_tags
+endsnippet
+
+snippet RequestContext "django RequestContext import"
+from django.template import RequestContext
+endsnippet
+
+snippet TemplateView "django Templateview view import"
+from django.views.generic import TemplateView
+endsnippet
